@@ -4,9 +4,9 @@
     _connect();
     _select_db();
     _set_names();
-    $sql = "select tg_title from tg_html where tg_id = 1";
+    $sql = "select tg_title,tg_slogan from tg_html where tg_id = 1";
     $row = _fetch_array($sql);
-
+    _close();
 ?>
 
 <!-- BEGIN PAGE HEADER-->
@@ -100,7 +100,7 @@
                         <label class="control-label">标语:</label>
                         <div class="controls">
                             <div class="form">
-                                <input type="text" name="slogan"  value="" class="m-wrap small"/>
+                                <input type="text" name="slogan"  value="<?php echo $row['tg_slogan']?>" class="m-wrap small"/>
                                 <span class="help-inline">六个字最佳</span>
                                 <button style="margin-left: 30px" class="btn blue">提交</button>
                             </div>

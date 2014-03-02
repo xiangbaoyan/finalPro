@@ -18,15 +18,24 @@ if ($name && $con) {
                  where tg_id=1";
         _query($sql);
     }
+
+    if ($name == 'slogan') {
+        echo $name;
+        $sql = "update tg_html
+                   set tg_slogan='{$con}'
+                 where tg_id=1";
+        _query($sql);
+    }
+
 }
 
 
 //查询生成静态页面
 
-$sql =  "select tg_title from tg_html where tg_id = 1";
+$sql =  "select tg_title,tg_slogan from tg_html where tg_id = 1";
 $row = _fetch_array($sql);
 $title =  $row['tg_title'];
-
+$slogan = $row['tg_slogan'];
 _close();
 ob_start();
 ?>
@@ -40,8 +49,8 @@ ob_start();
 <body style="width: 320px; margin: 0 auto;">
 
 <div class="new-jd-logo">
-    <div style="font-size:24px; padding-top:10px; height:35px; color:#c91623;"><?php echo $title ?> <font style="font-size:14px;">团实惠
-            购品质</font></div>
+    <div style="font-size:24px; padding-top:10px; height:35px; color:#c91623;"><?php echo $title ?>
+        <font style="font-size:14px;"><?php echo $slogan?></font></div>
     <div class="new-hlogo-btn">
         <a href="../muser-login.php" class="new-m-myjd"><span><?php echo $title ?></span></a>
         <a href="mcart.php" id="html5_cart" class="new-m-cart"><span>购物车</span></a>
