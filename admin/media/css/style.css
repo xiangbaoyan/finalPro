@@ -2249,6 +2249,7 @@ textarea.placeholder {
 
 .help-inline {
   margin-top: 6px;
+    width: 200px;
 }
 
 .help-small {

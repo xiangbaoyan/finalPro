@@ -54,7 +54,7 @@ if ($errData == "" && !empty($clean)) {
     </div>
     <div class="new-jd-tab" style="display:none" id="jdkey">
         <div class="new-tbl-type">
-            <a href="m.php" class="new-tbl-cell">
+            <a href="activePage/m.php" class="new-tbl-cell">
                 <span class="icon">首页</span>
 
                 <p style="color:#6e6e6e;">首页</p>
@@ -70,9 +70,9 @@ if ($errData == "" && !empty($clean)) {
                 <p style="color:#6e6e6e;">购物车</p>
             </a>
             <a href="muser-login.php" class="new-tbl-cell">
-                <span class="icon4">我的向宝彦</span>
+                <span class="icon4"><?php echo $title ?></span>
 
-                <p style="color:#6e6e6e;">我的向宝彦</p>
+                <p style="color:#6e6e6e;"><?php echo $title ?></p>
             </a>
         </div>
     </div>
@@ -122,7 +122,7 @@ if ($errData == "" && !empty($clean)) {
                 href="muser-register.php" style="padding-left: 10px;">注册</a>
             <span class="new-back-top"><a href="#top">回到顶部</a></span>
         </div>
-        <div class="new-f-section"><a href="m.php" class="on">触屏版</a><a
+        <div class="new-f-section"><a href="activePage/m.php" class="on">触屏版</a><a
                 id="toPcHome">电脑版</a></div>
         <div class="new-f-section2">Copyright &copy; 2012-2013 向宝彦 dabinzhou.com 版权所有</div>
     </div>

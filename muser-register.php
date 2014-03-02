@@ -56,7 +56,7 @@ if ($errData == "" && !empty($clean)) {
     </div>
     <div class="new-jd-tab" style="display:none" id="jdkey">
         <div class="new-tbl-type">
-            <a href="m.php" class="new-tbl-cell">
+            <a href="activePage/m.php" class="new-tbl-cell">
                 <span class="icon">首页</span>
 
                 <p style="color:#6e6e6e;">首页</p>
@@ -115,7 +115,7 @@ if ($errData == "" && !empty($clean)) {
                 href="muser-register.php" style="padding-left: 10px;">注册</a>
             <span class="new-back-top"><a href="#top">回到顶部</a></span>
         </div>
-        <div class="new-f-section"><a href="m.php" class="on">触屏版</a></div>
+        <div class="new-f-section"><a href="activePage/m.php" class="on">触屏版</a></div>
         <div class="new-f-section2">Copyright &copy; 2012-2013 大滨州 dabinzhou.com 版权所有</div>
     </div>
 </footer>
@@ -183,7 +183,7 @@ if ($errData == "" && !empty($clean)) {
         return false;
     }
     function backHis() {
-        location.href = "/m.php";
+        location.href = "/activePage/m.php";
     }
     function showOrHide(id) {
         var tardiv = $("#" + id);
