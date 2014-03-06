@@ -1979,17 +1979,18 @@
       <primary-key name="PRIMARY" columns="tg_id"/>
     </table>
     <table name="tg_user" schema="" catalog="t_g" type="TABLE">
-      <column name="tg_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" remarks="Ly/Dp+KAncKow6bLhsK3w6jigKHCqsOlxaDCqMOnwrzigJPDpcKPwrc=" autoIncrement="true"/>
-      <column name="tg_username" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/Dp+KAncKow6bLhsK3w6XCkMKN"/>
-      <column name="tg_password" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/DpcKv4oCgw6fCoMKB"/>
-      <column name="tg_uniqid" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/DqcKqxZLDqMKvwoHDqMK6wqvDpMK7wr3Dp8Wh4oCew6XigJ3Cr8OkwrjigqzDpsKg4oChw6jCr+KAoMOnwqzCpg=="/>
-      <column name="tg_active" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/DpsK/4oKsw6bCtMK7w6fihKLCu8Olwr3igKLDp+KAncKow6bLhsK3"/>
-      <column name="tg_sex" sqlType="CHAR" length="1" precision="0" nullable="false" jdbcType="1" remarks="Ly/DpuKCrMKnw6XLhsKr"/>
-      <column name="tg_level" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" def="MA==" remarks="Ly/DpMK8xaHDpeKAmMucw6fCreKAsMOnwrrCpw=="/>
-      <column name="tg_reg_time" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/DpsKzwqjDpeKAoMWSw6bigJTCtsOp4oCUwrQ="/>
-      <column name="tg_last_time" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/DpsWT4oKsw6XCkMW9w6fihKLCu8Olwr3igKLDp8Wh4oCew6bigJTCtsOp4oCUwrQ="/>
-      <column name="tg_login_count" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" def="MA==" remarks="Ly/Dp+KEosK7w6XCveKAosOmwqzCocOm4oCiwrA="/>
-      <column name="tg_last_ip" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/DpsWT4oKsw6XCkMW9w6fihKLCu8Olwr3igKLDp8Wh4oCeSVA="/>
+      <column name="tg_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" remarks="Ly/nlKjmiLfoh6rliqjnvJblj7c=" autoIncrement="true"/>
+      <column name="tg_userDir" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12" remarks="Ly/nlKjmiLfmlofku7blrZjmlL4="/>
+      <column name="tg_username" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/nlKjmiLflkI0="/>
+      <column name="tg_password" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/lr4bnoIE="/>
+      <column name="tg_uniqid" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/pqozor4Houqvku73nmoTllK/kuIDmoIfor4bnrKY="/>
+      <column name="tg_active" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" def="JzAn" remarks="Ly/mv4DmtLvnmbvlvZXnlKjmiLc="/>
+      <column name="tg_sex" sqlType="CHAR" length="1" precision="0" nullable="false" jdbcType="1" remarks="Ly/mgKfliKs="/>
+      <column name="tg_level" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" def="MA==" remarks="Ly/kvJrlkZjnrYnnuqc="/>
+      <column name="tg_reg_time" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/ms6jlhozml7bpl7Q="/>
+      <column name="tg_last_time" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/mnIDlkI7nmbvlvZXnmoTml7bpl7Q="/>
+      <column name="tg_login_count" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" def="MA==" remarks="Ly/nmbvlvZXmrKHmlbA="/>
+      <column name="tg_last_ip" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/mnIDlkI7nmbvlvZXnmoRJUA=="/>
       <primary-key name="PRIMARY" columns="tg_id"/>
     </table>
   </data-source>

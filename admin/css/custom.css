@@ -1,0 +1,8 @@
+@media(min-width: 970px){
+    .navbar-btn{
+        display: none;
+    }
+    .page-sidebar{
+        display: block;
+    }
+}
