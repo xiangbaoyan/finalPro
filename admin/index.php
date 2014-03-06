@@ -54,7 +54,7 @@
                 <!-- END RESPONSIVE QUICK SEARCH FORM -->
             </li>
             <li class="start">
-                <a class="ajaxify start" href="manaUsers.php">
+                <a class="ajaxify start" href="siteCon.php">
                     <i class="fa fa-home"></i>
                     <span class="title">主页内容</span>
                     <span class="selected"></span>
