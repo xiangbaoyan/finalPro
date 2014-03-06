@@ -120,6 +120,12 @@ ob_start();
     <div class="new-f-section2">Copyright &copy; 2012-2013 向宝彦 xiangbaoyan 版权所有</div>
 </div>
 </body>
+<script src="/js/jquery.cookie.js"></script>
+<script>
+    $(function(){
+        alert($.cookie("username")) ;
+    })
+</script>
 </html>
 <?php
 $data = ob_get_clean();
