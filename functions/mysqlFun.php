@@ -323,7 +323,14 @@ function registUser($arr) {
         '对不起，此用户已被注册'
     );
     _query($sql);
-    backPage("注册成功");
+
+    if(_affected_rows()==1){
+        _setcookies($arr['username'],$arr['uniqid'],1);
+        backPage("注册成功");
+        $sql = "select tg_userDir from tg_user where tg_username='{$arr['username']}' limit 1";
+        $row = _fetch_array($sql);
+    }
+
 }
 
 
