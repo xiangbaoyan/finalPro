@@ -52,7 +52,9 @@ ob_start();
     <div style="font-size:24px; padding-top:10px; height:35px; color:#c91623;"><?php echo $title ?>
         <font style="font-size:14px;"><?php echo $slogan?></font></div>
     <div class="new-hlogo-btn">
-        <a href="../muser-login.php" class="new-m-myjd"><span><?php echo $title ?></span></a>
+        <img src="/users/avatar.png"  id="userAva"
+             style="width: 25px;display:none;position: absolute;top:10px;left: 3px" alt=""/>
+        <a href="muser-login.php" class="new-m-myjd"><span><?php echo $title ?></span></a>
         <a href="mcart.php" id="html5_cart" class="new-m-cart"><span>购物车</span></a>
     </div>
 </div>
@@ -74,8 +76,8 @@ ob_start();
     <div class="new-tbl-type">
         <a href="mcate/id-0.php" class="new-tbl-cell"><span class="new-icon1"><span></span><br>商城分类</span></a><a
             href="mtuan/id-0.php" class="new-tbl-cell"><span class="new-icon2"><span></span><br>团购分类</span></a><a
-            href="index.htm" class="new-tbl-cell"><span class="new-icon3"><span></span><br>我的关注</span></a><a
-            href="../muser-login.php" class="new-tbl-cell"><span class="new-icon4"><span></span><br><?php echo $title ?></span></a>
+            href="index.php" class="new-tbl-cell"><span class="new-icon3"><span></span><br>我的关注</span></a><a
+            href="muser-login.php" class="new-tbl-cell"><span class="new-icon4"><span></span><br><?php echo $title ?></span></a>
     </div>
 </div>
 
@@ -111,8 +113,8 @@ ob_start();
 </div>
 <div class="new-footer">
     <div class="new-f-login">
-        <a href="../muser-login.php" style="padding-right: 10px;">登录</a><span class="new-bar2">|</span><a
-            href="../muser-register.php" style="padding-left: 10px;">注册</a>
+        <a href="muser-login.php" id="loginBtn" style="padding-right: 10px;">登录</a><span class="new-bar2">|</span><a
+            href="muser-register.php" style="padding-left: 10px;">注册</a>
         <span class="new-back-top"><a href="#top">回到顶部</a></span>
     </div>
     <div class="new-f-section"><a href="m.php" class="on">触屏版</a><a
@@ -120,11 +122,17 @@ ob_start();
     <div class="new-f-section2">Copyright &copy; 2012-2013 向宝彦 xiangbaoyan 版权所有</div>
 </div>
 </body>
+<script src="/js/jquery.min.js"></script>
 <script src="/js/jquery.cookie.js"></script>
 <script>
-    $(function(){
-        alert($.cookie("username")) ;
-    })
+    if($.cookie("username")){
+        $("#userAva").css("display","block").siblings(".new-m-myjd").attr("href","");
+        $("#loginBtn").html("退出").attr("href","").click(function(){
+            $.removeCookie("username");
+            $.removeCookie("uniqid");
+            location.reload();
+        })
+    }
 </script>
 </html>
 <?php
