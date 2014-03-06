@@ -3,6 +3,7 @@
     <title>主页</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-metro.css">
     <link rel="stylesheet" href="css/style-responsive.css">
@@ -31,11 +32,8 @@
 <!-- END HEADER -->
 
 <!-- BEGIN CONTAINER -->
-
 <div class="page-container">
-
     <!-- BEGIN SIDEBAR1 -->
-
     <div class="page-sidebar nav-collapse">
         <!-- BEGIN SIDEBAR MENU1 -->
         <ul class="page-sidebar-menu" style="margin-top: 50px">
@@ -57,165 +55,34 @@
             </li>
             <li class="start">
                 <a class="ajaxify start" href="manaUsers.php">
-                    <i class="icon-home"></i>
-                    <span class="title">控制面板</span>
+                    <i class="fa fa-home"></i>
+                    <span class="title">主页内容</span>
                     <span class="selected"></span>
                 </a>
             </li>
-
             <li class="">
-
-                <a href="">
-
-                    <i class="icon-cogs"></i>
-
-                    <span class="title">页面内容控制</span>
-
+                <a class="ajaxify" href="manaUsers.php">
+                    <i class="fa fa-users"></i>
+                    <span class="title">用户管理</span>
                     <span class="selected"></span>
-
-                    <span class="arrow open"></span>
-
                 </a>
-
-                <ul class="sub-menu">
-
-                    <li>
-
-                        <a class="ajaxify" href="siteCon.php">
-
-                            主页内容控制
-
-                        </a>
-
-                    </li>
-                </ul>
-
             </li>
-
-        </ul>
-
-        <!-- END SIDEBAR MENU1 -->
-
+            <!-- END SIDEBAR MENU1 -->
     </div>
-
     <!-- END SIDEBAR1 -->
-
     <!-- BEGIN PAGE -->
-
     <div class="page-content">
-
         <!-- BEGIN PAGE CONTAINER-->
-
-        <div class="container-fluid">
-
-            <!-- BEGIN STYLE CUSTOMIZER -->
-
-            <div class="color-panel hidden-phone">
-
-                <div class="color-mode-icons icon-color"></div>
-
-                <div class="color-mode-icons icon-color-close"></div>
-
-                <div class="color-mode">
-
-                    <p>主题颜色</p>
-
-                    <ul class="inline">
-
-                        <li class="color-black current color-default" data-style="default"></li>
-
-                        <li class="color-blue" data-style="blue"></li>
-
-                        <li class="color-brown" data-style="brown"></li>
-
-                        <li class="color-purple" data-style="purple"></li>
-
-                        <li class="color-grey" data-style="grey"></li>
-
-                        <li class="color-white color-light" data-style="light"></li>
-
-                    </ul>
-
-                    <label>
-
-                        <span>布局</span>
-
-                        <select class="layout-option m-wrap small">
-
-                            <option value="fluid" selected>流动式</option>
-
-                            <option value="boxed">盒式</option>
-
-                        </select>
-
-                    </label>
-
-                    <label>
-
-                        <span>头部</span>
-
-                        <select class="header-option m-wrap small">
-
-                            <option value="fixed" selected>固定</option>
-
-                            <option value="default">默认</option>
-
-                        </select>
-
-                    </label>
-
-                    <label>
-
-                        <span>侧边栏</span>
-
-                        <select class="sidebar-option m-wrap small">
-
-                            <option value="fixed">固定</option>
-
-                            <option value="default" selected>默认</option>
-
-                        </select>
-
-                    </label>
-
-                    <label>
-
-                        <span>底部</span>
-
-                        <select class="footer-option m-wrap small">
-
-                            <option value="fixed">固定</option>
-
-                            <option value="default" selected>默认</option>
-
-                        </select>
-
-                    </label>
-
-                </div>
-
-            </div>
-
-            <!-- END BEGIN STYLE CUSTOMIZER -->
-
+        <div class="container">
             <div class="page-content-body">
-
             </div>
-
         </div>
-
         <!-- HERE WILL BE LOADED AN AJAX CONTENT -->
-
     </div>
-
     <!-- BEGIN PAGE -->
-
 </div>
-
 <!-- END CONTAINER -->
-
 <!-- BEGIN FOOTER -->
-
 <div class="footer">
     <div class="footer-inner">
         2014 &copy; 后台制作 by XiangBaoyan.
