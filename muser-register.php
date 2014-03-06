@@ -16,9 +16,9 @@ require $_SERVER["DOCUMENT_ROOT"] . "/functions/serverCheckFun.php";
 if (@$_GET['action'] == "register") {
 //验证并保存注册数据到临时变量$clean;
     $clean = serverCheckFun(["username", "password", "repassword", "code", "uniqid"]);
-} else {
-    $_SESSION['uniqid'] = $uniqid = _sha1_uniqid();
 }
+$_SESSION['uniqid'] = $uniqid = _sha1_uniqid();
+
 /*
  * 把下面代码复制到form 下，防止表单验证
  * <input type="hidden" name="uniqid" value="<?php echo $uniqid ?>" />

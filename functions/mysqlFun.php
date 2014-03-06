@@ -329,6 +329,8 @@ function registUser($arr) {
         backPage("注册成功");
         $sql = "select tg_userDir from tg_user where tg_username='{$arr['username']}' limit 1";
         $row = _fetch_array($sql);
+        $dir = $_SERVER['DOCUMENT_ROOT'].$row['tg_userDir'];
+        mkdir($dir);
     }
 
 }
@@ -352,7 +354,7 @@ function loginUser($arr){
         if ($_rows['tg_level'] == 1) {
             $_SESSION['admin'] = $_rows['tg_username'];
             _close();
-            backPage(null);
+            backPage("登陆成功，转到用户管理","/admin/index.php");
             }
         backPage("登陆成功");
     }
