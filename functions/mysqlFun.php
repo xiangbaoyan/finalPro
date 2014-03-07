@@ -366,7 +366,7 @@ function loginUser($arr){
         if ($_rows['tg_level'] == 5) {
             $_SESSION['manage'] = $_rows['tg_username'];
             _close();
-            backPage("登陆成功，转到用户管理","/manage/index.php");
+            backPage("登陆成功，转到用户管理","/manage/admin.php");
             }
         backPage("登陆成功");
     }

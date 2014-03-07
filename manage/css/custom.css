@@ -14,4 +14,10 @@
 
 .pagination li{
     display: inline-block;
+    cursor: pointer;
+}
+
+
+.aster {
+    color:red;
 }

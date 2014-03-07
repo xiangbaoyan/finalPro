@@ -10,14 +10,13 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/custom.css">
 </head>
-
 <!-- BEGIN BODY -->
 <body>
 <!-- BEGIN HEADER -->
 <div class="navbar navbar-inverse navbar-fixed-top">
     <!-- BEGIN TOP NAVIGATION BAR -->
     <!-- BEGIN LOGO -->
-    <a class="navbar-brand" href="index.php">
+    <a class="navbar-brand" href="admin.php">
         <img src="images/logo.png" alt="logo"/>
     </a>
     <!-- END LOGO -->
@@ -30,7 +29,6 @@
 </div>
 <!-- END TOP NAVIGATION BAR -->
 <!-- END HEADER -->
-
 <!-- BEGIN CONTAINER -->
 <div class="page-container">
     <!-- BEGIN SIDEBAR1 -->
@@ -54,14 +52,14 @@
                 <!-- END RESPONSIVE QUICK SEARCH FORM -->
             </li>
             <li class="start">
-                <a class="ajaxify start" href="siteCon.php">
+                <a class="ajaxify start" href="merchant/reaPro.php">
                     <i class="fa fa-home"></i>
-                    <span class="title">主页内容</span>
+                    <span class="title">发布产品</span>
                     <span class="selected"></span>
                 </a>
             </li>
             <li class="">
-                <a class="ajaxify" href="manaUsers.php">
+                <a class="ajaxify" href="">
                     <i class="fa fa-users"></i>
                     <span class="title">用户管理</span>
                     <span class="selected"></span>
