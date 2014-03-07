@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7e41ee-d383-4b76-8896-150b868de03d" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\functions\delDir.php" afterPath="$PROJECT_DIR$/functions/delDirFun.php" />
-      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\functions\insertUsers.php" afterPath="$PROJECT_DIR$/functions/insertUsersFun.php" />
-      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\functions\install.php" afterPath="$PROJECT_DIR$/functions/installFun.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/dealFuns/dealUser.php" afterPath="$PROJECT_DIR$/admin/dealFuns/dealUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/insertUsersFun.php" afterPath="$PROJECT_DIR$/functions/insertUsersFun.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/manaUsers.php" afterPath="$PROJECT_DIR$/admin/manaUsers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/mysqlFun.php" afterPath="$PROJECT_DIR$/functions/mysqlFun.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalPro.iws" />
@@ -32,63 +32,20 @@
       <file leaf-file-name="manaUsers.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/manaUsers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="0" selection-start="3691" selection-end="3691" vertical-scroll-proportion="-84.451614" vertical-offset="0" max-vertical-offset="3366">
+            <state line="32" column="14" selection-start="906" selection-end="906" vertical-scroll-proportion="-7.806452" vertical-offset="462" max-vertical-offset="3608">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1394166031149" expanded="true" signature="567:619" placeholder="select tg_us..tg_user..." />
+                <marker date="1394178673262" expanded="true" signature="777:817" placeholder="select count..tg_user..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dealUser.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/dealFuns/dealUser.php">
+      <file leaf-file-name="fetchPageData.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/dealFuns/fetchPageData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.23783784" vertical-offset="528" max-vertical-offset="1386">
-              <folding>
-                <marker date="1394167872620" expanded="true" signature="332:395" placeholder="select tg_us..tg_user..." />
-                <marker date="1394167872620" expanded="true" signature="510:563" placeholder="delete from ..." />
-                <marker date="1394167872620" expanded="true" signature="895:969" placeholder="update tg_us..." />
-                <marker date="1394167872620" expanded="true" signature="1039:1099" placeholder="select tg_le..tg_user..." />
-                <marker date="1394167872620" expanded="true" signature="1233:1279" placeholder="update tg_us..." />
-                <marker date="1394167872620" expanded="true" signature="1233:1307" placeholder="update tg_us..." />
-                <marker date="1394167872620" expanded="true" signature="1377:1437" placeholder="select tg_le..tg_user..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertUsersFun.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/insertUsersFun.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="9" selection-start="1302" selection-end="1302" vertical-scroll-proportion="-8.387096" vertical-offset="664" max-vertical-offset="1078">
-              <folding>
-                <marker date="1394167441709" expanded="true" signature="543:772" placeholder="insert into ..." />
-                <marker date="1394167441709" expanded="true" signature="543:909" placeholder="insert into ..." />
-                <marker date="1394167441709" expanded="true" signature="543:1304" placeholder="insert into ..." />
-                <marker date="1394167441709" expanded="true" signature="543:1174" placeholder="insert into ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t_g.tg_user" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/t_g..tg_user">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="installFun.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/installFun.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="-7.806452" vertical-offset="132" max-vertical-offset="682">
+            <state line="1" column="4" selection-start="11" selection-end="11" vertical-scroll-proportion="0.036789298" vertical-offset="0" max-vertical-offset="598">
               <folding />
             </state>
           </provider>
@@ -97,15 +54,36 @@
       <file leaf-file-name="mysqlFun.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/mysqlFun.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="28" selection-start="5553" selection-end="5553" vertical-scroll-proportion="-3.8387096" vertical-offset="5711" max-vertical-offset="8822">
+            <state line="410" column="11" selection-start="9401" selection-end="9401" vertical-scroll-proportion="-13.903226" vertical-offset="8589" max-vertical-offset="9174">
               <folding>
-                <marker date="1394166563369" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
-                <marker date="1394166563369" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
-                <marker date="1394166563369" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
-                <marker date="1394166563369" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
-                <marker date="1394166563369" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
-                <marker date="1394166563369" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
+                <marker date="1394178580714" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
+                <marker date="1394178580714" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
+                <marker date="1394178580714" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
+                <marker date="1394178580714" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
+                <marker date="1394178580714" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
+                <marker date="1394178580714" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
+                <marker date="1394178580714" expanded="true" signature="9246:9386" placeholder="select tg_us..tg_user..." />
+                <marker date="1394178580714" expanded="true" signature="9246:9385" placeholder="select tg_us..tg_user..." />
+                <marker date="1394178580714" expanded="true" signature="9246:9387" placeholder="select tg_us..tg_user..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="30" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-39.032257" vertical-offset="0" max-vertical-offset="2728">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="installFun.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/installFun.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="-10.354838" vertical-offset="53" max-vertical-offset="682">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +91,7 @@
       <file leaf-file-name="MySQL - @localhost" pinned="false" current="false" current-in-tab="false">
         <entry file="dbDummy://db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="53" selection-end="267" vertical-scroll-proportion="-5.866667" vertical-offset="0" max-vertical-offset="484">
+            <state line="7" column="5" selection-start="261" selection-end="261" vertical-scroll-proportion="-5.133333" vertical-offset="0" max-vertical-offset="286">
               <folding />
             </state>
           </provider>
@@ -142,11 +120,13 @@
         <option value="$PROJECT_DIR$/admin/css/style.css" />
         <option value="$PROJECT_DIR$/admin/css/custom.css" />
         <option value="$PROJECT_DIR$/functions/install.php" />
-        <option value="$PROJECT_DIR$/admin/manaUsers.php" />
-        <option value="db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/" />
-        <option value="$PROJECT_DIR$/functions/mysqlFun.php" />
         <option value="$PROJECT_DIR$/functions/insertUsers.php" />
         <option value="$PROJECT_DIR$/admin/dealFuns/dealUser.php" />
+        <option value="db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/" />
+        <option value="$PROJECT_DIR$/functions/insertUsersFun.php" />
+        <option value="$PROJECT_DIR$/functions/mysqlFun.php" />
+        <option value="$PROJECT_DIR$/admin/manaUsers.php" />
+        <option value="$PROJECT_DIR$/admin/dealFuns/fetchPageData.php" />
       </list>
     </option>
   </component>
@@ -247,20 +227,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -280,6 +246,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dealFuns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,30 +416,34 @@
       <created>1394167528138</created>
       <updated>1394167528138</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="17">
+      <created>1394167977231</created>
+      <updated>1394167977231</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1456" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13603473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18596238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -509,7 +497,8 @@
     <MESSAGE value="14" />
     <MESSAGE value="15" />
     <MESSAGE value="16" />
-    <option name="LAST_COMMIT_MESSAGE" value="16" />
+    <MESSAGE value="17" />
+    <option name="LAST_COMMIT_MESSAGE" value="17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -521,7 +510,7 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1394166031149" expanded="true" signature="567:619" placeholder="select tg_us..tg_user..." />
+            <marker date="1394178673262" expanded="true" signature="777:817" placeholder="select count..tg_user..." />
           </folding>
         </state>
       </provider>
@@ -530,13 +519,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="24" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="638">
           <folding>
-            <marker date="1394167872620" expanded="true" signature="332:395" placeholder="select tg_us..tg_user..." />
-            <marker date="1394167872620" expanded="true" signature="510:563" placeholder="delete from ..." />
-            <marker date="1394167872620" expanded="true" signature="895:969" placeholder="update tg_us..." />
-            <marker date="1394167872620" expanded="true" signature="1039:1099" placeholder="select tg_le..tg_user..." />
-            <marker date="1394167872620" expanded="true" signature="1233:1279" placeholder="update tg_us..." />
-            <marker date="1394167872620" expanded="true" signature="1233:1307" placeholder="update tg_us..." />
-            <marker date="1394167872620" expanded="true" signature="1377:1437" placeholder="select tg_le..tg_user..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_us..tg_user..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_le..tg_user..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_le..tg_user..." />
           </folding>
         </state>
       </provider>
@@ -559,12 +548,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="333" column="0" selection-start="7526" selection-end="7526" vertical-scroll-proportion="0.0" vertical-offset="7348" max-vertical-offset="8206">
           <folding>
-            <marker date="1394166563369" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394166563369" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394166563369" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394166563369" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
-            <marker date="1394166563369" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394166563369" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
+            <marker date="1394178580714" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394178580714" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394178580714" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
+            <marker date="1394178580714" expanded="true" signature="9246:9386" placeholder="select tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="9246:9385" placeholder="select tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="9246:9387" placeholder="select tg_us..tg_user..." />
           </folding>
         </state>
       </provider>
@@ -595,13 +587,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="153" column="23" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.33230293" vertical-offset="3151" max-vertical-offset="8140">
@@ -623,7 +608,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/jquery.blockui.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8954" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8954">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/jquery.cookie.min.js">
@@ -633,7 +620,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="787" column="48" selection-start="29402" selection-end="29402" vertical-scroll-proportion="0.3325359" vertical-offset="17175" max-vertical-offset="19690" />
+        <state line="787" column="48" selection-start="29402" selection-end="29402" vertical-scroll-proportion="0.3325359" vertical-offset="17175" max-vertical-offset="19690">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/css/font-awesome.min.css">
@@ -663,11 +652,6 @@
         <state line="85" column="9" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.22564936" vertical-offset="1731" max-vertical-offset="2420">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="30" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.7465887" vertical-offset="827" max-vertical-offset="2728" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.cookie.js">
@@ -752,54 +736,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/manaUsers.php">
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="3691" selection-end="3691" vertical-scroll-proportion="-84.451614" vertical-offset="0" max-vertical-offset="3366">
+        <state line="6" column="0" selection-start="93100" selection-end="93100" vertical-scroll-proportion="0.22680412" vertical-offset="0" max-vertical-offset="388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/images/ajax-loading.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/dealFuns/dealUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="288" selection-end="288" vertical-scroll-proportion="-0.77257526" vertical-offset="726" max-vertical-offset="1364">
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1394166031149" expanded="true" signature="567:619" placeholder="select tg_us..tg_user..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_us..tg_user..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_le..tg_user..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
+            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_le..tg_user..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="53" selection-end="267" vertical-scroll-proportion="-5.866667" vertical-offset="0" max-vertical-offset="484">
+        <state line="7" column="5" selection-start="261" selection-end="261" vertical-scroll-proportion="-5.133333" vertical-offset="0" max-vertical-offset="286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="146" selection-end="146" vertical-scroll-proportion="0.14285715" vertical-offset="0" max-vertical-offset="616">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/installFun.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="-7.806452" vertical-offset="132" max-vertical-offset="682">
+        <state line="17" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="-10.354838" vertical-offset="53" max-vertical-offset="682">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/mysqlFun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="28" selection-start="5553" selection-end="5553" vertical-scroll-proportion="-3.8387096" vertical-offset="5711" max-vertical-offset="8822">
-          <folding>
-            <marker date="1394166563369" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394166563369" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394166563369" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394166563369" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
-            <marker date="1394166563369" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394166563369" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/insertUsersFun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="9" selection-start="1302" selection-end="1302" vertical-scroll-proportion="-8.387096" vertical-offset="664" max-vertical-offset="1078">
-          <folding>
-            <marker date="1394167441709" expanded="true" signature="543:772" placeholder="insert into ..." />
-            <marker date="1394167441709" expanded="true" signature="543:909" placeholder="insert into ..." />
-            <marker date="1394167441709" expanded="true" signature="543:1304" placeholder="insert into ..." />
-            <marker date="1394167441709" expanded="true" signature="543:1174" placeholder="insert into ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,18 +794,54 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/dealFuns/dealUser.php">
+    <entry file="file://$PROJECT_DIR$/functions/insertUsersFun.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.23783784" vertical-offset="528" max-vertical-offset="1386">
+        <state line="38" column="21" selection-start="1262" selection-end="1262" vertical-scroll-proportion="1.3979933" vertical-offset="0" max-vertical-offset="1078">
           <folding>
-            <marker date="1394167872620" expanded="true" signature="332:395" placeholder="select tg_us..tg_user..." />
-            <marker date="1394167872620" expanded="true" signature="510:563" placeholder="delete from ..." />
-            <marker date="1394167872620" expanded="true" signature="895:969" placeholder="update tg_us..." />
-            <marker date="1394167872620" expanded="true" signature="1039:1099" placeholder="select tg_le..tg_user..." />
-            <marker date="1394167872620" expanded="true" signature="1233:1279" placeholder="update tg_us..." />
-            <marker date="1394167872620" expanded="true" signature="1233:1307" placeholder="update tg_us..." />
-            <marker date="1394167872620" expanded="true" signature="1377:1437" placeholder="select tg_le..tg_user..." />
+            <marker date="1394176637153" expanded="true" signature="-1:-1" placeholder="insert into ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="30" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-39.032257" vertical-offset="0" max-vertical-offset="2728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/mysqlFun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="410" column="11" selection-start="9401" selection-end="9401" vertical-scroll-proportion="-13.903226" vertical-offset="8589" max-vertical-offset="9174">
+          <folding>
+            <marker date="1394178580714" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394178580714" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394178580714" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
+            <marker date="1394178580714" expanded="true" signature="9246:9386" placeholder="select tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="9246:9385" placeholder="select tg_us..tg_user..." />
+            <marker date="1394178580714" expanded="true" signature="9246:9387" placeholder="select tg_us..tg_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/manaUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="14" selection-start="906" selection-end="906" vertical-scroll-proportion="-7.806452" vertical-offset="462" max-vertical-offset="3608">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1394178673262" expanded="true" signature="777:817" placeholder="select count..tg_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/dealFuns/fetchPageData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="11" selection-end="11" vertical-scroll-proportion="0.036789298" vertical-offset="0" max-vertical-offset="598">
+          <folding />
         </state>
       </provider>
     </entry>

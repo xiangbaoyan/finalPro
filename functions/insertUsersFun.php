@@ -36,7 +36,7 @@ _connect();
 _select_db();
 _set_names();
 
-for ($i = 0; $i < 20; $i++) {
+for ($i = 0; $i < 150; $i++) {
     insertUsers();
 }
 

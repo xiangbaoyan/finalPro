@@ -393,3 +393,20 @@ function levelToName($tg_level){
     }
 }
 
+/**
+ * 分页函数从数据库取指定书目
+ *
+ * @param string $startItem 起始条目
+ * @param string $fetchLength 要取得长度
+ * @param string $tableName 表明
+ *
+ * @return resource result
+ */
+function getPageData($startItem,$fetchLength){
+
+    $sql = "select tg_username,tg_level,tg_reg_time
+              from tg_user
+             ORDER by tg_id
+             limit {$startItem},{$fetchLength}";
+    return  _query($sql);
+}
