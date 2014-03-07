@@ -16,8 +16,8 @@
     </ul>
 
     <?php
-    define("IN_TG",true);
-    require $_SERVER['DOCUMENT_ROOT']."/functions/mysqlFun.php";
+    define("IN_TG", true);
+    require $_SERVER['DOCUMENT_ROOT'] . "/functions/mysqlFun.php";
 
     _connect();
     _select_db();
@@ -25,19 +25,20 @@
     $sql = "select tg_username,tg_level,tg_reg_time from tg_user";
     $result = _query($sql);
 
-    while($row = _fetch_array_list($result)){
-        ?>
-    <div class="portlet box blue">
+    while ($row = _fetch_array_list($result)){
+    ?>
+    <div class="portlet box blue" id="<?php echo $row['tg_username'] ?>">
         <div class="portlet-title">
             <div class="caption">
                 <i class="fa fa-user"></i><?php
-                    echo $row['tg_username'];
+                echo $row['tg_username'];
                 ?>
             </div>
             <div class="tools" style="padding-bottom: 5px">
-                <button class="btn red-stripe">
+                <button class="delUserBtn btn red-stripe">
                     <i class="fa fa-eraser"></i>
-                    删除用户</button>
+                    删除用户
+                </button>
             </div>
         </div>
         <div class="portlet-body">
@@ -48,9 +49,9 @@
                         用户级别
                     </td>
                     <td>
-                       <?php 
-                           echo levelToName($row['tg_level']);
-                       ?>
+                        <?php
+                        echo levelToName($row['tg_level']);
+                        ?>
                     </td>
                 </tr>
                 <tr>
@@ -68,9 +69,22 @@
         </div>
     </div>
 </div>
+<?php
+}
+?>
 
-
-    <?php
-    }
-    ?>
-
+<script>
+   $(".portlet").each(
+       function(){
+           var username = $(this).attr("id");
+           $(this).find(".delUserBtn").click(
+              function(){
+                  $.post("dealFuns/dealUser.php",
+                      {method:"delUser",username:username},function(data){
+                      alert(data);
+                  });
+              }
+           )
+       }
+   );
+</script>
