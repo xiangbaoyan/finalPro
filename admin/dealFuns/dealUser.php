@@ -1,7 +1,7 @@
 <?php
 define("IN_TG", true);
 require $_SERVER['DOCUMENT_ROOT'] . '/functions/mysqlFun.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/functions/delDir.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/functions/delDirFun.php';
 
 
 _connect();
