@@ -69,10 +69,11 @@
         </div>
     </div>
 </div>
+
+<div id="err"></div>
 <?php
 }
 ?>
-
 <script>
    $(".portlet").each(
        function(){
@@ -81,7 +82,7 @@
               function(){
                   $.post("dealFuns/dealUser.php",
                       {method:"delUser",username:username},function(data){
-                      alert(data);
+                      $("#err").append(data);
                   });
               }
            )

@@ -14,10 +14,11 @@
     _select_db();
     _set_names();
     creUserTable($arr);
+
+    createTriggerDir();
     creHtmlTable($html);
 
-    $sql  = "insert into tg_html (tg_id,tg_title,tg_slogan)
-                    values (1,'<?php echo $title ?>','团结奋进，努力进取') ";
+
 
     _query($sql);
 

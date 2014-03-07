@@ -262,6 +262,16 @@ function creHtmlTable($arr){
     _query($sql);
 }
 
+//为用户目录建立trigger
+function createTriggerDir(){
+    $sql = "create trigger t_setDir before insert on tg_user for each row
+            begin set NEW.tg_userDir = CONCAT('/users/',LEFT(NEW.tg_uniqid,10));
+            end;";
+
+    _query($sql);
+}
+
+
 
 /*--------------------------注册函数-------------------------------*/
 /*
