@@ -265,8 +265,10 @@ function creHtmlTable($arr){
 //为用户目录建立trigger
 function createTriggerDir(){
     $sql = "create trigger t_setDir before insert on tg_user for each row
-            begin set NEW.tg_userDir = CONCAT('/users/',LEFT(NEW.tg_uniqid,10));
-            end;";
+          begin set NEW.tg_userDir = CONCAT('/users/',LEFT(NEW.tg_uniqid,10));
+                set NEW.tg_reg_time = NOW();
+                set NEW.tg_last_time = NOW();
+          end;";
 
     _query($sql);
 }
