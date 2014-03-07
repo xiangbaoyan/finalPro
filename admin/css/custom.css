@@ -11,3 +11,7 @@
 .tools{
     padding-bottom: 10px;
 }
+
+.pagination li{
+    display: inline-block;
+}

@@ -14,10 +14,10 @@
             </a>
         </li>
     </ul>
-
-    <ul class="pagination">
-        <li><a href=""><i class="fa fa-arrow-left"></i>上十页</a></li>
-        <li><a href=""><i class="fa fa-arrow-left"></i>上一页</a></li>
+      <div id="err"></div>
+    <ul class="pagination" style="min-width: 730px;">
+        <li><a id="lastTen"><i class="fa fa-arrow-left"></i>上十页</a></li>
+        <li><a id="lastOne"><i class="fa fa-arrow-left"></i>上一页</a></li>
         <?php
         define("IN_TG", true);
         require $_SERVER['DOCUMENT_ROOT'] . "/functions/mysqlFun.php";
@@ -30,79 +30,23 @@
         $row = _fetch_array($sql);
         $pageSum = $row['pageSum'];
 
+        //存放在cookie
+        setcookie("pageSum",$pageSum);
+
         //现在确定一次显示10页，每页5条
-
-
+        foreach (range(1, $pageSum) as $value) {
+            ?>
+            <li class="liNum" style="display:none;" mytag="<?php echo $value ?>">
+                <a><?php echo $value ?></a></li>
+            <?php
+        }
         //查询指定数目的记录
         ?>
 
-        <li><a href="">下一页<i class="fa fa-arrow-right"></i></a></li>
-        <li><a href="">下十页<i class="fa fa-arrow-right"></i></a></li>
+        <li><a id="nextOne">下一页<i class="fa fa-arrow-right"></i></a></li>
+        <li><a id="nextTen">下十页<i class="fa fa-arrow-right"></i></a></li>
     </ul>
-    <?php
-    while ($row = _fetch_array_list($result)){
-    ?>
-    <div class="portlet box blue" id="<?php echo $row['tg_username'] ?>">
-        <div class="portlet-title">
-            <div class="caption">
-                <i class="fa fa-user"></i><?php
-                echo $row['tg_username'];
-                ?>
-            </div>
-            <div class="tools" style="padding-bottom: 5px">
-                <button class="promBtn btn red"
-                    <?php
-                    if (($row['tg_level'] == 5)) echo "disabled";
-                    ?> >
-                    <i class="fa fa-hand-o-up"></i>
-                    提升权限
-                </button>
-                <button class="deProBtn btn green
-                <?php
-                if (($row['tg_level'] == 0)) echo "disabled";
-                ?> >">
-                    <i class="fa fa-hand-o-down"></i>
-                    降低权限
-                </button>
-                <button class="delUserBtn btn black">
-                    <i class="fa fa-times-circle"></i>
-                    删除用户
-                </button>
-            </div>
-        </div>
-        <div class="portlet-body">
-            <table class="table table-hover">
-                <tbody>
-                <tr>
-                    <td>
-                        用户级别
-                    </td>
-                    <td class="userLevel">
-                        <?php
-                        echo levelToName($row['tg_level']);
-                        ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        注册日期
-                    </td>
-                    <td>
-                        <?php
-                        echo $row['tg_reg_time'];
-                        ?>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-
-<div id="err"></div>
-<?php
-}
-?>
+    <script src="js/myPagify.js"></script>
 <script>
     $(".portlet").each(
         function () {

@@ -1,2 +1,2 @@
 <?php
-    echo $_COOKIE['username'];
+  echo "<script>document.write(parseInt(10/6))</script>";
