@@ -14,8 +14,9 @@ function showLis(){
         $(this).click(function(){
             var num = $.cookie("curPage");
             $("li[mytag = '"+num+"']").removeClass("active");
-            $.cookie("curPage",that.attr("mytag"))
+            $.cookie("curPage",that.attr("mytag"));
             that.addClass("active");
+            ajPost();
         });
 
         if(i== ($.cookie("curPage")-1)){
@@ -34,13 +35,12 @@ function showLis(){
 }
 
 
-
-
 $("#nextTen").click(function(){
     var maxPageNexMin = parseInt($.cookie("curPage")/10)*10+10;
     if(maxPageNexMin<= $.cookie("pageSum")){
         $.cookie("curPage",maxPageNexMin);
         showLis();
+        ajPost();
     }
 
 });
@@ -49,16 +49,17 @@ $("#lastTen").click(function(){
     var minPageNexMax = parseInt($.cookie("curPage")/10)*10-10;
     if(minPageNexMax>=1){
         $.cookie("curPage",minPageNexMax);
+        ajPost();
         showLis();
     }
 
 });
 
 var pageSum = parseInt($.cookie("pageSum"));
-
 $("#nextOne").click(function(){
     if($.cookie("curPage") <= pageSum){
         $.cookie("curPage", parseInt($.cookie("curPage"))+1);
+        ajPost();
         showLis();
     }
 });
@@ -66,6 +67,15 @@ $("#nextOne").click(function(){
 $("#lastOne").click(function(){
     if($.cookie("curPage")>0){
         $.cookie("curPage", $.cookie("curPage")-1);
+        ajPost();
         showLis();
     }
 });
+
+ajPost();
+function ajPost(){
+    var curPage = $.cookie("curPage");
+    $.post("dealFuns/fetchPageData.php",{curPage:curPage},function(data){
+        $("#showUsers").html(data);
+    });
+}

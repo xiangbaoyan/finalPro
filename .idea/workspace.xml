@@ -2,11 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7e41ee-d383-4b76-8896-150b868de03d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/js/myPagify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/custom.css" afterPath="$PROJECT_DIR$/admin/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/dealFuns/fetchPageData.php" afterPath="$PROJECT_DIR$/admin/dealFuns/fetchPageData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/manaUsers.php" afterPath="$PROJECT_DIR$/admin/manaUsers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/dealFuns/fetchPageData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/manaUsers.php" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\custom.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\default.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\style-metro.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\style-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\dealFuns\dealUser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\dealFuns\fetchPageData.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\ajax-loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\icon-color-close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\icon-color.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\menu-toggler.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-collapse-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-collapse-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-config-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-config-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-expand-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-expand-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-reload-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-reload-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-remove-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-remove-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\search-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\sidebar-menu-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\sidebar-toggler.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\jquery.blockui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\jquery.cookie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\myPagify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\manaUsers.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\siteCon.php" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/manage/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\custom.css" afterPath="$PROJECT_DIR$/manage/css/custom.css" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\default.css" afterPath="$PROJECT_DIR$/manage/css/default.css" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\font-awesome.min.css" afterPath="$PROJECT_DIR$/manage/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\style-metro.css" afterPath="$PROJECT_DIR$/manage/css/style-metro.css" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\style-responsive.css" afterPath="$PROJECT_DIR$/manage/css/style-responsive.css" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\css\style.css" afterPath="$PROJECT_DIR$/manage/css/style.css" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\dealFuns\dealUser.php" afterPath="$PROJECT_DIR$/manage/dealFuns/dealUser.php" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\FontAwesome.otf" afterPath="$PROJECT_DIR$/manage/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/manage/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/manage/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/manage/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\fonts\fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/manage/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\ajax-loading.gif" afterPath="$PROJECT_DIR$/manage/images/ajax-loading.gif" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\icon-color-close.png" afterPath="$PROJECT_DIR$/manage/images/icon-color-close.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\icon-color.png" afterPath="$PROJECT_DIR$/manage/images/icon-color.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\logo.png" afterPath="$PROJECT_DIR$/manage/images/logo.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\menu-toggler.png" afterPath="$PROJECT_DIR$/manage/images/menu-toggler.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-collapse-icon-white.png" afterPath="$PROJECT_DIR$/manage/images/portlet-collapse-icon-white.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-collapse-icon.png" afterPath="$PROJECT_DIR$/manage/images/portlet-collapse-icon.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-config-icon-white.png" afterPath="$PROJECT_DIR$/manage/images/portlet-config-icon-white.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-config-icon.png" afterPath="$PROJECT_DIR$/manage/images/portlet-config-icon.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-expand-icon-white.png" afterPath="$PROJECT_DIR$/manage/images/portlet-expand-icon-white.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-expand-icon.png" afterPath="$PROJECT_DIR$/manage/images/portlet-expand-icon.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-reload-icon-white.png" afterPath="$PROJECT_DIR$/manage/images/portlet-reload-icon-white.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-reload-icon.png" afterPath="$PROJECT_DIR$/manage/images/portlet-reload-icon.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-remove-icon-white.png" afterPath="$PROJECT_DIR$/manage/images/portlet-remove-icon-white.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\portlet-remove-icon.png" afterPath="$PROJECT_DIR$/manage/images/portlet-remove-icon.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\search-icon.png" afterPath="$PROJECT_DIR$/manage/images/search-icon.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\sidebar-menu-arrow.png" afterPath="$PROJECT_DIR$/manage/images/sidebar-menu-arrow.png" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\images\sidebar-toggler.jpg" afterPath="$PROJECT_DIR$/manage/images/sidebar-toggler.jpg" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\index.php" afterPath="$PROJECT_DIR$/manage/index.php" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\app.js" afterPath="$PROJECT_DIR$/manage/js/app.js" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/manage/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\excanvas.min.js" afterPath="$PROJECT_DIR$/manage/js/excanvas.min.js" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\html5shiv.js" afterPath="$PROJECT_DIR$/manage/js/html5shiv.js" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\jquery.blockui.min.js" afterPath="$PROJECT_DIR$/manage/js/jquery.blockui.min.js" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\jquery.cookie.min.js" afterPath="$PROJECT_DIR$/manage/js/jquery.cookie.min.js" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\jquery.min.js" afterPath="$PROJECT_DIR$/manage/js/jquery.min.js" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\myPagify.js" afterPath="$PROJECT_DIR$/manage/js/myPagify.js" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\js\respond.min.js" afterPath="$PROJECT_DIR$/manage/js/respond.min.js" />
+      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\admin\siteCon.php" afterPath="$PROJECT_DIR$/manage/siteCon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/mysqlFun.php" afterPath="$PROJECT_DIR$/functions/mysqlFun.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalPro.iws" />
@@ -30,96 +114,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manaUsers.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/manaUsers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="21" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-17.161291" vertical-offset="590" max-vertical-offset="2376">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#1;n#div#0;n#!!top" expanded="true" />
-                <marker date="1394192098630" expanded="true" signature="839:879" placeholder="select count..tg_user..." />
-                <marker date="1394192098630" expanded="true" signature="1504:3454" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myPagify.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/js/myPagify.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="3" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.23052464" vertical-offset="1043" max-vertical-offset="1672">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="47" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.7096774" vertical-offset="0" max-vertical-offset="154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fetchPageData.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/dealFuns/fetchPageData.php">
+        <entry file="file://$PROJECT_DIR$/manage/dealFuns/fetchPageData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.1290324" vertical-offset="0" max-vertical-offset="1672">
+            <state line="129" column="9" selection-start="4114" selection-end="4114" vertical-scroll-proportion="-61.741936" vertical-offset="924" max-vertical-offset="2970">
               <folding>
-                <marker date="1394179069750" expanded="true" signature="262:2011" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="298:1244" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="332:460" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="500:519" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="520:1229" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="569:788" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="945:1050" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1104:1210" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1279:2000" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1325:1985" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1349:1964" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1370:1658" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1395:1450" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1493:1636" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1679:1939" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1704:1759" placeholder="..." />
-                <marker date="1394179069750" expanded="true" signature="1784:1917" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="428:537" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="462:537" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="650:755" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="1409:1700" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="1455:1700" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="1479:1700" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="1500:1700" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="1525:1580" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="1623:1700" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="1809:1979" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="1834:1889" placeholder="..." />
+                <marker date="1394195401368" expanded="true" signature="1914:1979" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysqlFun.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/mysqlFun.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="410" column="11" selection-start="9401" selection-end="9401" vertical-scroll-proportion="-13.903226" vertical-offset="8589" max-vertical-offset="9174">
-              <folding>
-                <marker date="1394178580714" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
-                <marker date="1394178580714" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
-                <marker date="1394178580714" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
-                <marker date="1394178580714" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
-                <marker date="1394178580714" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
-                <marker date="1394178580714" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
-                <marker date="1394178580714" expanded="true" signature="9246:9386" placeholder="select tg_us..tg_user..." />
-                <marker date="1394178580714" expanded="true" signature="9246:9385" placeholder="select tg_us..tg_user..." />
-                <marker date="1394178580714" expanded="true" signature="9246:9387" placeholder="select tg_us..tg_user..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="30" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-30.516129" vertical-offset="264" max-vertical-offset="2728">
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/css/custom.css">
+        <entry file="file://$PROJECT_DIR$/manage/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
               <folding />
@@ -127,19 +145,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="installFun.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/installFun.php">
+      <file leaf-file-name="mysqlFun.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/mysqlFun.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="-10.354838" vertical-offset="53" max-vertical-offset="682">
-              <folding />
+            <state line="408" column="27" selection-start="9342" selection-end="9342" vertical-scroll-proportion="-39.032257" vertical-offset="7766" max-vertical-offset="9174">
+              <folding>
+                <marker date="1394199217407" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
+                <marker date="1394199217407" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
+                <marker date="1394199217407" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
+                <marker date="1394199217407" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
+                <marker date="1394199217407" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
+                <marker date="1394199217407" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
+                <marker date="1394199217407" expanded="true" signature="9248:9389" placeholder="select tg_us..tg_user..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQL - @localhost" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/">
+      <file leaf-file-name="myPagify.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage/js/myPagify.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="261" selection-end="261" vertical-scroll-proportion="-5.133333" vertical-offset="0" max-vertical-offset="286">
+            <state line="11" column="49" selection-start="329" selection-end="329" vertical-scroll-proportion="-1.5333333" vertical-offset="1254" max-vertical-offset="1914">
               <folding />
             </state>
           </provider>
@@ -171,11 +197,11 @@
         <option value="db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/" />
         <option value="$PROJECT_DIR$/functions/insertUsersFun.php" />
         <option value="$PROJECT_DIR$/functions/mysqlFun.php" />
-        <option value="$PROJECT_DIR$/admin/dealFuns/fetchPageData.php" />
         <option value="$PROJECT_DIR$/admin/css/custom.css" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/admin/manaUsers.php" />
+        <option value="$PROJECT_DIR$/admin/dealFuns/fetchPageData.php" />
         <option value="$PROJECT_DIR$/admin/js/myPagify.js" />
+        <option value="$PROJECT_DIR$/admin/manaUsers.php" />
       </list>
     </option>
   </component>
@@ -262,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,47 +302,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dealFuns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="manage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -481,7 +467,11 @@
       <created>1394178816114</created>
       <updated>1394178816114</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="20">
+      <created>1394194318351</created>
+      <updated>1394194318351</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -561,26 +551,24 @@
     <MESSAGE value="17" />
     <MESSAGE value="18" />
     <MESSAGE value="19" />
-    <option name="LAST_COMMIT_MESSAGE" value="19" />
+    <MESSAGE value="20" />
+    <option name="LAST_COMMIT_MESSAGE" value="20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/manaUsers.php">
+    <entry file="file://$PROJECT_DIR$/manage/manaUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="0" selection-start="1997" selection-end="1997" vertical-scroll-proportion="0.0" vertical-offset="1461" max-vertical-offset="2090">
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#1;n#div#0;n#!!top" expanded="true" />
-            <marker date="1394192098630" expanded="true" signature="839:879" placeholder="select count..tg_user..." />
-            <marker date="1394192098630" expanded="true" signature="1504:3454" placeholder="..." />
+            <marker date="1394195762166" expanded="true" signature="-1:-1" placeholder="select count..tg_user..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/dealFuns/dealUser.php">
+    <entry file="file://$PROJECT_DIR$/manage/dealFuns/dealUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="24" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="638">
           <folding>
@@ -613,15 +601,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="333" column="0" selection-start="7526" selection-end="7526" vertical-scroll-proportion="0.0" vertical-offset="7348" max-vertical-offset="8206">
           <folding>
-            <marker date="1394178580714" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394178580714" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394178580714" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
-            <marker date="1394178580714" expanded="true" signature="9246:9386" placeholder="select tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="9246:9385" placeholder="select tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="9246:9387" placeholder="select tg_us..tg_user..." />
+            <marker date="1394199217407" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394199217407" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394199217407" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394199217407" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
+            <marker date="1394199217407" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394199217407" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
+            <marker date="1394199217407" expanded="true" signature="9248:9389" placeholder="select tg_us..tg_user..." />
           </folding>
         </state>
       </provider>
@@ -649,7 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/manage/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647">
           <folding />
@@ -663,45 +649,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/default.css">
+    <entry file="file://$PROJECT_DIR$/manage/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6820">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/excanvas.min.js">
+    <entry file="file://$PROJECT_DIR$/manage/js/excanvas.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19602" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/jquery.blockui.min.js">
+    <entry file="file://$PROJECT_DIR$/manage/js/jquery.blockui.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8954">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/jquery.cookie.min.js">
+    <entry file="file://$PROJECT_DIR$/manage/js/jquery.cookie.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1518" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/app.js">
+    <entry file="file://$PROJECT_DIR$/manage/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="787" column="48" selection-start="29402" selection-end="29402" vertical-scroll-proportion="0.3325359" vertical-offset="17175" max-vertical-offset="19690">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/font-awesome.min.css">
+    <entry file="file://$PROJECT_DIR$/manage/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="44" selection-start="206" selection-end="206" vertical-scroll-proportion="0.102009274" vertical-offset="0" max-vertical-offset="647">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/style-responsive.css">
+    <entry file="file://$PROJECT_DIR$/manage/css/style-responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="164" column="18" selection-start="3335" selection-end="3335" vertical-scroll-proportion="1.5564142" vertical-offset="2601" max-vertical-offset="10340">
           <folding />
@@ -760,21 +746,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/siteCon.php">
+    <entry file="file://$PROJECT_DIR$/manage/siteCon.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="26" selection-start="273" selection-end="273" vertical-scroll-proportion="0.34976152" vertical-offset="0" max-vertical-offset="1518">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/style.css">
+    <entry file="file://$PROJECT_DIR$/manage/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1352" column="1" selection-start="25893" selection-end="25893" vertical-scroll-proportion="0.0" vertical-offset="31531" max-vertical-offset="112266">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/style-metro.css">
+    <entry file="file://$PROJECT_DIR$/manage/css/style-metro.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="164" column="4" selection-start="2922" selection-end="2922" vertical-scroll-proportion="-8.459415" vertical-offset="8819" max-vertical-offset="15906">
           <folding />
@@ -802,12 +788,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/images/ajax-loading.gif">
+    <entry file="file://$PROJECT_DIR$/manage/images/ajax-loading.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/dealFuns/dealUser.php">
+    <entry file="file://$PROJECT_DIR$/manage/dealFuns/dealUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="27" selection-start="288" selection-end="288" vertical-scroll-proportion="-0.77257526" vertical-offset="726" max-vertical-offset="1364">
           <folding>
@@ -829,7 +815,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/manage/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="3" selection-start="146" selection-end="146" vertical-scroll-proportion="0.14285715" vertical-offset="0" max-vertical-offset="616">
           <folding />
@@ -862,59 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/mysqlFun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="410" column="11" selection-start="9401" selection-end="9401" vertical-scroll-proportion="-13.903226" vertical-offset="8589" max-vertical-offset="9174">
-          <folding>
-            <marker date="1394178580714" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394178580714" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394178580714" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
-            <marker date="1394178580714" expanded="true" signature="9246:9386" placeholder="select tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="9246:9385" placeholder="select tg_us..tg_user..." />
-            <marker date="1394178580714" expanded="true" signature="9246:9387" placeholder="select tg_us..tg_user..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
+    <entry file="file://$PROJECT_DIR$/manage/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="30" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-30.516129" vertical-offset="264" max-vertical-offset="2728">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/dealFuns/fetchPageData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.1290324" vertical-offset="0" max-vertical-offset="1672">
-          <folding>
-            <marker date="1394179069750" expanded="true" signature="262:2011" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="298:1244" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="332:460" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="500:519" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="520:1229" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="569:788" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="945:1050" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1104:1210" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1279:2000" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1325:1985" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1349:1964" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1370:1658" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1395:1450" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1493:1636" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1679:1939" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1704:1759" placeholder="..." />
-            <marker date="1394179069750" expanded="true" signature="1784:1917" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,22 +862,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/manaUsers.php">
+    <entry file="file://$PROJECT_DIR$/manage/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="21" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-17.161291" vertical-offset="590" max-vertical-offset="2376">
+        <state line="15" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/manaUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="451" selection-end="451" vertical-scroll-proportion="0.5945946" vertical-offset="0" max-vertical-offset="1232">
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#1;n#div#0;n#!!top" expanded="true" />
-            <marker date="1394192098630" expanded="true" signature="839:879" placeholder="select count..tg_user..." />
-            <marker date="1394192098630" expanded="true" signature="1504:3454" placeholder="..." />
+            <marker date="1394195762166" expanded="true" signature="-1:-1" placeholder="select count..tg_user..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/myPagify.js">
+    <entry file="file://$PROJECT_DIR$/manage/dealFuns/fetchPageData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="3" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.23052464" vertical-offset="1043" max-vertical-offset="1672">
+        <state line="129" column="9" selection-start="4114" selection-end="4114" vertical-scroll-proportion="-61.741936" vertical-offset="924" max-vertical-offset="2970">
+          <folding>
+            <marker date="1394195401368" expanded="true" signature="428:537" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="462:537" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="650:755" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="1409:1700" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="1455:1700" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="1479:1700" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="1500:1700" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="1525:1580" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="1623:1700" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="1809:1979" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="1834:1889" placeholder="..." />
+            <marker date="1394195401368" expanded="true" signature="1914:1979" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/mysqlFun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="408" column="27" selection-start="9342" selection-end="9342" vertical-scroll-proportion="-39.032257" vertical-offset="7766" max-vertical-offset="9174">
+          <folding>
+            <marker date="1394199217407" expanded="true" signature="3592:3714" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394199217407" expanded="true" signature="5030:5137" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394199217407" expanded="true" signature="7403:7481" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394199217407" expanded="true" signature="7659:7736" placeholder="select tg_us..tg_user..." />
+            <marker date="1394199217407" expanded="true" signature="7928:8058" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394199217407" expanded="true" signature="8103:8329" placeholder="UPDATE tg_us..." />
+            <marker date="1394199217407" expanded="true" signature="9248:9389" placeholder="select tg_us..tg_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/js/myPagify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="49" selection-start="329" selection-end="329" vertical-scroll-proportion="-1.5333333" vertical-offset="1254" max-vertical-offset="1914">
           <folding />
         </state>
       </provider>

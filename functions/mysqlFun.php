@@ -364,9 +364,9 @@ function loginUser($arr){
     _setcookies($_rows['tg_username'],$_rows['tg_uniqid'],'2');
     //看是否是admin
         if ($_rows['tg_level'] == 5) {
-            $_SESSION['admin'] = $_rows['tg_username'];
+            $_SESSION['manage'] = $_rows['tg_username'];
             _close();
-            backPage("登陆成功，转到用户管理","/admin/index.php");
+            backPage("登陆成功，转到用户管理","/manage/index.php");
             }
         backPage("登陆成功");
     }
