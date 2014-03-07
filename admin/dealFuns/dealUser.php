@@ -10,7 +10,7 @@ _set_names();
 
 $username = @$_POST['username'];
 $method = @$_POST['method'];
-if ($method = "delUser") {
+if ($method == "delUser") {
     /*
      * 取出用户的文件夹
      */
@@ -32,6 +32,27 @@ if ($method = "delUser") {
             delDir($desDir);
         }
         echo "删除成功";
+    }
+}
+
+if ($method == "promUser") {
+    $sql = "update tg_user set tg_level = tg_level + 1 where tg_username='{$username}'";
+    _query($sql);
+    if (_affected_rows() == 1) {
+        $sql = "select tg_level from tg_user where tg_username='{$username}'";
+        $row = _fetch_array($sql);
+        echo levelToName($row['tg_level']);
+    }
+}
+
+
+if ($method == "deProUser") {
+    $sql = "update tg_user set tg_level = tg_level - 1 where tg_username='{$username}'";
+    _query($sql);
+    if (_affected_rows() == 1) {
+        $sql = "select tg_level from tg_user where tg_username='{$username}'";
+        $row = _fetch_array($sql);
+        echo levelToName($row['tg_level']);
     }
 }
 ?>
