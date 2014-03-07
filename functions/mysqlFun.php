@@ -351,7 +351,7 @@ function loginUser($arr){
     //设置保留时间
     _setcookies($_rows['tg_username'],$_rows['tg_uniqid'],'2');
     //看是否是admin
-        if ($_rows['tg_level'] == 1) {
+        if ($_rows['tg_level'] == 5) {
             $_SESSION['admin'] = $_rows['tg_username'];
             _close();
             backPage("登陆成功，转到用户管理","/admin/index.php");
@@ -362,6 +362,22 @@ function loginUser($arr){
     _close();
     //_session_destroy();
     backPage('用户名密码不正确或者该账户未被激活！','muser-login.php');
+    }
+}
+
+
+/**
+ * 转数字级别成文字级别
+ *
+ * @param $tg_level
+ * @return string
+ */
+function levelToName($tg_level){
+    switch($tg_level){
+        case 0: return "普通用户";
+        case 1: return "普通商家";
+        case 5: return "管理员";
+        default: return "不识别用户组";
     }
 }
 

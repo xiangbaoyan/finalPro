@@ -10,9 +10,10 @@ _set_names();
 $sql = "select tg_title,tg_slogan from tg_html where tg_id = 1";
 $row = _fetch_array($sql);
 _close();
+
 ?>
 
-<div class="row" style="margin-top: 50px">
+<div style="margin-top: 50px">
     <ul class="page-breadcrumb breadcrumb">
         <li>
             <i class="fa fa-home"></i>

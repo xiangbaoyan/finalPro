@@ -138,5 +138,4 @@ ob_start();
 <?php
 $data = ob_get_clean();
 file_put_contents($_SERVER['DOCUMENT_ROOT'].'/m.html', $data);
-
 ?>
