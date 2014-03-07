@@ -75,17 +75,19 @@
 }
 ?>
 <script>
-   $(".portlet").each(
-       function(){
-           var username = $(this).attr("id");
-           $(this).find(".delUserBtn").click(
-              function(){
-                  $.post("dealFuns/dealUser.php",
-                      {method:"delUser",username:username},function(data){
-                      $("#err").append(data);
-                  });
-              }
-           )
-       }
-   );
+    $(".portlet").each(
+        function () {
+            var username = $(this).attr("id");
+            var that = $(this);
+            $(this).find(".delUserBtn").click(
+                function () {
+                    $.post("dealFuns/dealUser.php",
+                        {method: "delUser", username: username}, function (data) {
+                            that.remove();
+                            alert("删除成功");
+                        });
+                }
+            )
+        }
+    );
 </script>
