@@ -18,8 +18,6 @@
     createTriggerDir();
     creHtmlTable($html);
 
-
-
     _query($sql);
 
     _close();

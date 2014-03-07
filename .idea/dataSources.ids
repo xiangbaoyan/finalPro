@@ -1978,6 +1978,13 @@
       <column name="tg_slogan" sqlType="VARCHAR" length="40" precision="0" nullable="false" jdbcType="12" def="J8OlxaDCqsOlxaDigLrDqMK/4oC6w6XCj+KAk8OvwrzFksOl4oC6wqLDp8K74oCcw6XCpeKAucOowr/igLon" remarks="Ly/Dp8K94oCYw6fCq+KEosOmwqDigKHDqcKiy5w="/>
       <primary-key name="PRIMARY" columns="tg_id"/>
     </table>
+    <table name="tg_test" schema="" catalog="t_g" type="TABLE">
+      <column name="tg_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="tg_username" sqlType="VARCHAR" length="20" precision="0" nullable="true" jdbcType="12" def="J3hpYW9ob3Un"/>
+      <column name="tg_ex1" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="tg_ex2" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="tg_id"/>
+    </table>
     <table name="tg_user" schema="" catalog="t_g" type="TABLE">
       <column name="tg_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" remarks="Ly/nlKjmiLfoh6rliqjnvJblj7c=" autoIncrement="true"/>
       <column name="tg_userDir" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12" remarks="Ly/nlKjmiLfmlofku7blrZjmlL4="/>
