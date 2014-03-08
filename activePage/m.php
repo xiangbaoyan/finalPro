@@ -36,7 +36,6 @@ $sql =  "select tg_title,tg_slogan from tg_html where tg_id = 1";
 $row = _fetch_array($sql);
 $title =  $row['tg_title'];
 $slogan = $row['tg_slogan'];
-_close();
 ob_start();
 ?>
 <!DOCTYPE html>
@@ -84,33 +83,53 @@ ob_start();
 
 <div class="box_top">精选团购</div>
 
+<?php
+    $sql = "select tg_pName,tg_pIns,tg_pOlodPrice,tg_pMainImg,tg_pNewPrice
+              from tg_good
+          order by tg_id
+              desc
+             limit 5";
+    $result = _query($sql);
 
-<div class="thumb">
-    <ul class="lst-type">
-        <li class="box lt-li">
-            <a class="lt-a" href="mtuan/deal/id-1432.php">
-                <p class="thumb-img" style="width:150px;">
-                    <img width="144" height="100" alt="photo" src="/images/52e1c51c955b6_287x179.jpg"><br>
-                </p>
+    while($row = _fetch_array_list($result)){
+        ?>
+
+        <div class="thumb">
+            <ul class="lst-type">
+                <li class="box lt-li">
+                    <a class="lt-a" href="#">
+                        <p class="thumb-img" style="width:150px;">
+                            <img width="144" height="100" alt="photo" src="<?php echo $row['tg_pMainImg'] ?>"><br>
+                        </p>
                             <span class="thumb-cont" style="display:block;padding:5px 8px 0 0px">
 							<span style="height:40px;font-size:14px;margin-top: -8px;">
-								【吉泰阳光、碧林花园】沁园家用净水器            					</span>
-								
+								【<?php echo $row['tg_pName'] ?>】
+                                <?php echo $row['tg_pIns'] ?>
+                            </span>
+
                             	<span style="margin-top:-8px;" mode="nowrap">
-                                	<strong style="font-size:15px;">￥1380</strong>
+                                	<strong style="font-size:15px;">￥<?php echo $row['tg_pNewPrice'] ?></strong>
                                 </span>
 								<span style="margin-top: -6px;" mode="nowrap">
-                                	<del style="font-size:12px;">￥1980</del>
+                                	<del style="font-size:12px;">￥<?php echo $row['tg_pOlodPrice'] ?></del>
                                 </span>
-                                
+
 								<p style="font-size:14px;margin-top: -8px;" class="buy txt2">
                                     <span></span><strong>0</strong>人已购买</p>
 								</span>
 
-            </a>
-        </li>
-    </ul>
-</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    <?php
+    }
+?>
+
+
+
 <div class="new-footer">
     <div class="new-f-login">
         <a href="muser-login.php" id="loginBtn" style="padding-right: 10px;">登录</a><span class="new-bar2">|</span><a

@@ -90,6 +90,7 @@
 
 
                 <div class="form-group">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="1048576"/>
                     <!--start选择图片-->
                         <label class="control-label col-sm-2">选择一张商品图片:
                             <span class="aster">*</span>
@@ -127,8 +128,8 @@
             //通过file.size可以取得图片大小
             var reader = new FileReader();
             reader.onload = function (evt) {
-                if(file.size>100*1024){
-                    alert("文件大小超过了100kb");
+                if(file.size>1024*1024){
+                    alert("文件大小超过了1M");
                     viewFiles.value = "";
                 }else{
                     viewImg.src = evt.target.result;
@@ -155,30 +156,25 @@
             $("#" + errId).html("");
             $("#" + formId + " input").each(function () {
                 if ($(this).attr("name") == "prodName") {
-                    if (!checkName($(this).val())) {
+                    if ($(this).val().length>20 || $(this).val().length<3) {
                         $("#" + errId).html("错误:商品名称长度不合要求，需要在3到20个字符");
                         flag = false;
                     }
                 } else if ($(this).attr("name") == "prodIns") {
-                    if (!checkName($(this).val())) {
+                    if ($(this).val().length>20 || $(this).val().length<3) {
                         $("#" + errId).html("错误:商品描述长度不合要求，需要在3到20个字符");
                         flag = false;
                     }
                 } else if ($(this).attr("name") == "prodOldPri") {
-                    if (!checkName($(this).val())) {
+                    if ($(this).val().length>20 || $(this).val().length<3) {
                         $("#" + errId).html("错误:商品原价格长度不合要求，需要在3到20个字符");
                         flag = false;
                     }
                 } else if ($(this).attr("name") == "prodNewPri") {
-                    if (!checkName($(this).val())) {
+                    if ($(this).val().length>20 || $(this).val().length<3) {
+
                         $("#" + errId).html("错误:商品新价格长度不合要求，需要在3到20个字符");
                         flag = false;
-                    }
-                }else if ($(this).attr("name") == "prodImg") {
-                        var myReg = /(jpg|png|gif)$/ ;
-                    if(!myReg.test($(this).val())){
-                        $("#" + errId).html("错误:必须是jpg、png、或者gif格式的图片");
-                        flag= false;
                     }
                 }
             });
@@ -190,14 +186,6 @@
         });
     }
 
-
-    function checkName(str) {
-        var myReg = /\w{1,20}/;
-        if (myReg.test(str)) {
-            return true;
-        }
-        return false;
-    }
 </script>
 <!--价格调节按钮-->
 <script>
