@@ -15,7 +15,6 @@
         </li>
     </ul>
 
-
     <div class="portlet">
         <div class="portlet-title">
             <div class="caption">
@@ -24,9 +23,10 @@
         </div>
         <div class="portlet-body">
             <div id="err" style="color:red;margin-left: 20px;font-size: 18px"></div>
-            <form class="form form-horizontal" id="form">
+            <form action="dealFuns/dealProd.php" class="form form-horizontal" id="form" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <label class="control-label col-sm-2">商品名称:<span class="aster">*</span></label>
+
                     <div class="col-sm-7">
                         <input type="text" name="prodName" class="form-control"/>
                     </div>
@@ -37,6 +37,7 @@
 
                 <div class="form-group">
                     <label class="control-label col-sm-2">商品描述:<span class="aster">*</span></label>
+
                     <div class="col-sm-7">
                         <input type="text" name="prodIns" class="form-control"/>
                     </div>
@@ -47,8 +48,19 @@
 
                 <div class="form-group">
                     <label class="control-label col-sm-2">商品原价(只写数字):<span class="aster">*</span></label>
+
                     <div class="col-sm-7">
-                        <input type="text" name="prodOldPri" class="form-control"/>
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                            <button class="btn green cutPrice" type="button">-</button>
+                            </span>
+                            <span class="input-group-addon">￥</span>
+                            <input name="prodOldPri" type="text" value="2" class="form-control">
+                            <span class="input-group-addon"></span>
+                            <span class="input-group-btn">
+                            <button class="btn green addPrice" type="button">+</button>
+                            </span>
+                        </div>
                     </div>
                     <div class="col-sm-2" style="padding-top:5px">
                         <span style="display: inline-block">建议10个字以内</span>
@@ -57,12 +69,43 @@
 
                 <div class="form-group">
                     <label class="control-label col-sm-2">商品现价(只写数字):<span class="aster">*</span></label>
+
                     <div class="col-sm-7">
-                        <input type="text" name="prodNewPri" class="form-control"/>
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                            <button class="btn green cutPrice" type="button">-</button>
+                            </span>
+                            <span class="input-group-addon">￥</span>
+                            <input name="prodNewPri" type="text" value="1" class="form-control">
+                            <span class="input-group-addon"></span>
+                            <span class="input-group-btn">
+                            <button class="btn green addPrice" type="button">+</button>
+                            </span>
+                        </div>
                     </div>
                     <div class="col-sm-2" style="padding-top:5px">
                         <span style="display: inline-block">建议10个字以内</span>
                     </div>
+                </div>
+
+
+                <div class="form-group">
+                    <!--start选择图片-->
+                        <label class="control-label col-sm-2">选择一张商品图片:
+                            <span class="aster">*</span>
+                        </label>
+                        <div class="col-sm-7">
+                            <div class="thumbnail" style="width: 200px; height: 150px;">
+                                <img src="" id="preImg"/>
+                            </div>
+                            <div>
+                             <span class="btn green btn-file">
+                             选择图片
+                            <input type="file" id="preInput" name="prodImg">
+                            </span>
+                            </div>
+                        </div>
+                    <!--end选择图片-->
                 </div>
                 <div class="form-group">
                     <input type="submit" value="发布" class="btn green form-control"/>
@@ -72,34 +115,70 @@
     </div>
 </div>
 
+<!--js-->
+
+<!--预览图片-->
+<script>
+    (function () {
+        var viewFiles = document.getElementById("preInput");
+        var viewImg = document.getElementById("preImg");
+
+        function viewFile(file) {
+            //通过file.size可以取得图片大小
+            var reader = new FileReader();
+            reader.onload = function (evt) {
+                if(file.size>100*1024){
+                    alert("文件大小超过了100kb");
+                    viewFiles.value = "";
+                }else{
+                    viewImg.src = evt.target.result;
+                }
+            };
+            reader.readAsDataURL(file);
+        }
+
+        viewFiles.addEventListener("change", function () {
+            //通过 this.files 取到 FileList ，这里只有一个
+            viewFile(this.files[0]);
+        }, false);
+    })();
+
+
+</script>
+<!--验证js-->
 <script>
     formCheckAndSub('form', 'err');
     //必须规范form表单名称为email，password,repassword,username,
     function formCheckAndSub(formId, errId) {
-
         $("#" + formId).submit(function () {
             var flag = true;
             $("#" + errId).html("");
             $("#" + formId + " input").each(function () {
                 if ($(this).attr("name") == "prodName") {
                     if (!checkName($(this).val())) {
-                        $("#" + errId).html("商品名称长度不合要求，需要在3到20个字符");
+                        $("#" + errId).html("错误:商品名称长度不合要求，需要在3到20个字符");
                         flag = false;
                     }
-                }else if ($(this).attr("name") == "prodIns") {
+                } else if ($(this).attr("name") == "prodIns") {
                     if (!checkName($(this).val())) {
-                        $("#" + errId).html("商品描述长度不合要求，需要在3到20个字符");
+                        $("#" + errId).html("错误:商品描述长度不合要求，需要在3到20个字符");
                         flag = false;
                     }
-                }else if ($(this).attr("name") == "prodOldPri") {
+                } else if ($(this).attr("name") == "prodOldPri") {
                     if (!checkName($(this).val())) {
-                        $("#" + errId).html("商品原价格长度不合要求，需要在3到20个字符");
+                        $("#" + errId).html("错误:商品原价格长度不合要求，需要在3到20个字符");
                         flag = false;
                     }
-                }else if ($(this).attr("name") == "prodNewPri") {
+                } else if ($(this).attr("name") == "prodNewPri") {
                     if (!checkName($(this).val())) {
-                        $("#" + errId).html("商品新价格长度不合要求，需要在3到20个字符");
+                        $("#" + errId).html("错误:商品新价格长度不合要求，需要在3到20个字符");
                         flag = false;
+                    }
+                }else if ($(this).attr("name") == "prodImg") {
+                        var myReg = /(jpg|png|gif)$/ ;
+                    if(!myReg.test($(this).val())){
+                        $("#" + errId).html("错误:必须是jpg、png、或者gif格式的图片");
+                        flag= false;
                     }
                 }
             });
@@ -111,11 +190,32 @@
         });
     }
 
+
     function checkName(str) {
-        var myReg = /\w{3,20}/;
+        var myReg = /\w{1,20}/;
         if (myReg.test(str)) {
             return true;
         }
         return false;
     }
 </script>
+<!--价格调节按钮-->
+<script>
+    $(".addPrice").click(function () {
+
+        var nowP = parseInt($(this).parent().siblings("input").val());
+        $(this).parent().siblings("input").val(nowP + 1);
+
+    });
+
+    $(".cutPrice").click(function () {
+
+        var nowP = parseInt($(this).parent().siblings("input").val());
+        if (nowP > 0) {
+            $(this).parent().siblings("input").val(nowP - 1);
+        }
+
+    });
+
+</script>
+

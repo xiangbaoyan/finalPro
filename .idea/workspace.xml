@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7e41ee-d383-4b76-8896-150b868de03d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/dealFuns/dealProd.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/merchant/reaPro.php" />
-      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\manage\index.php" afterPath="$PROJECT_DIR$/manage/merchantGuy.php" />
-      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\manage\manaUsers.php" afterPath="$PROJECT_DIR$/manage/admin/manaUsers.php" />
-      <change type="MOVED" beforePath="C:\Users\baoyan\Desktop\finalPro\manage\siteCon.php" afterPath="$PROJECT_DIR$/manage/admin/siteCon.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/css/custom.css" afterPath="$PROJECT_DIR$/manage/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/mysqlFun.php" afterPath="$PROJECT_DIR$/functions/mysqlFun.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/dealFuns/dealProd.php" afterPath="$PROJECT_DIR$/manage/dealFuns/dealProd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/installFun.php" afterPath="$PROJECT_DIR$/functions/installFun.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/merchant/reaPro.php" afterPath="$PROJECT_DIR$/manage/merchant/reaPro.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalPro.iws" />
@@ -33,30 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reaPro.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manage/merchant/reaPro.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="954" selection-end="954" vertical-scroll-proportion="0.19554849" vertical-offset="515" max-vertical-offset="2794">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dealProd.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dealProd.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manage/dealFuns/dealProd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="418">
-              <folding />
+            <state line="18" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.8505155" vertical-offset="66" max-vertical-offset="792">
+              <folding>
+                <marker date="1394263151326" expanded="true" signature="223:298" placeholder="select tg_us..tg_user..." />
+                <marker date="1394263151326" expanded="true" signature="223:299" placeholder="select tg_us..tg_user..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +65,6 @@
         <option value="$PROJECT_DIR$/functions/install.php" />
         <option value="$PROJECT_DIR$/functions/insertUsers.php" />
         <option value="$PROJECT_DIR$/admin/dealFuns/dealUser.php" />
-        <option value="db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/" />
         <option value="$PROJECT_DIR$/functions/insertUsersFun.php" />
         <option value="$PROJECT_DIR$/functions/mysqlFun.php" />
         <option value="$PROJECT_DIR$/admin/css/custom.css" />
@@ -96,15 +76,19 @@
         <option value="$PROJECT_DIR$/manage/index.php" />
         <option value="$PROJECT_DIR$/manage/admin/manaUsers.php" />
         <option value="$PROJECT_DIR$/manage/merchantGuy.php" />
+        <option value="$PROJECT_DIR$/manage/css/bootstrap-fileinput.css" />
         <option value="$PROJECT_DIR$/manage/css/custom.css" />
-        <option value="$PROJECT_DIR$/manage/dealFuns/dealProd.php" />
         <option value="$PROJECT_DIR$/manage/merchant/reaPro.php" />
+        <option value="db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/" />
+        <option value="$PROJECT_DIR$/functions/installFun.php" />
+        <option value="$PROJECT_DIR$/manage/dealFuns/dealProd.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
   </component>
@@ -175,102 +159,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="merchant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dealFuns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalPro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -285,15 +173,16 @@
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fileControl" />
-    <property name="SearchEverywhereHistory" value="cus" />
+    <property name="SearchEverywhereHistory" value="ins&#10;my&#10;cust&#10;cus" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\baoyan\Desktop\finalPro\manage\css" />
       <recent name="C:\Users\baoyan\Desktop\finalPro\functions" />
       <recent name="C:\Users\baoyan\Desktop\finalPro\admin\images" />
       <recent name="C:\Users\baoyan\Desktop\finalPro\js" />
       <recent name="C:\Users\baoyan\Desktop\finalPro\users" />
-      <recent name="C:\Users\baoyan\Desktop\finalPro\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\baoyan\Desktop\finalPro\manage\admin" />
@@ -442,55 +331,59 @@
       <created>1394199255562</created>
       <updated>1394199255562</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="22">
+      <created>1394206993577</created>
+      <updated>1394206993577</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13603473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27424023" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18596238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18958032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32902297" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2503618" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27424023" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07959479" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18958032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -524,40 +417,37 @@
     <MESSAGE value="19" />
     <MESSAGE value="20" />
     <MESSAGE value="21" />
-    <option name="LAST_COMMIT_MESSAGE" value="21" />
+    <MESSAGE value="22" />
+    <option name="LAST_COMMIT_MESSAGE" value="22" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/manage/dealFuns/dealProd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manage/admin/manaUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="0" selection-start="1997" selection-end="1997" vertical-scroll-proportion="0.0" vertical-offset="1461" max-vertical-offset="2090">
-          <folding>
-            <marker date="1394202073080" expanded="true" signature="-1:-1" placeholder="select count..tg_user..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/dealFuns/dealUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="24" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="638">
-          <folding>
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_us..tg_user..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_le..tg_user..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_le..tg_user..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/delDirFun.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="462">
-          <folding />
-        </state>
+        <state line="12" column="13" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/muser-register.php">
@@ -600,16 +490,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="30" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="154">
-          <folding />
-        </state>
+        <state line="1" column="30" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/meta.rnc">
@@ -635,9 +521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/js/jquery.blockui.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8954">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8954" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/js/jquery.cookie.min.js">
@@ -667,11 +551,11 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/t_g..tg_html">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/commonFun.php">
@@ -683,9 +567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.cookie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2574">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2574" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m.html">
@@ -720,9 +602,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/delDirFun.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="331" selection-end="331" vertical-scroll-proportion="0.41971382" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="12" column="13" selection-start="331" selection-end="331" vertical-scroll-proportion="0.41971382" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/web-forms.rnc">
@@ -744,89 +624,40 @@
         <state />
       </provider>
     </entry>
-    <entry file="dbDummy://db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="261" selection-end="261" vertical-scroll-proportion="-5.133333" vertical-offset="0" max-vertical-offset="286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="146" selection-end="146" vertical-scroll-proportion="0.14285715" vertical-offset="0" max-vertical-offset="616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/installFun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="-10.354838" vertical-offset="53" max-vertical-offset="682">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/insertUsersFun.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="21" selection-start="1262" selection-end="1262" vertical-scroll-proportion="1.3979933" vertical-offset="0" max-vertical-offset="1078">
-          <folding>
-            <marker date="1394176637153" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="47" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.7096774" vertical-offset="0" max-vertical-offset="154">
-          <folding />
-        </state>
+        <state line="1" column="47" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.7096774" vertical-offset="0" max-vertical-offset="154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/js/myPagify.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="329" selection-end="329" vertical-scroll-proportion="-1.608903" vertical-offset="1254" max-vertical-offset="1914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/mysqlFun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="408" column="27" selection-start="9342" selection-end="9342" vertical-scroll-proportion="2.068376" vertical-offset="7766" max-vertical-offset="9174">
-          <folding>
-            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="select tg_us..tg_user..." />
-            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="SELECT tg_us..tg_user..." />
-            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="UPDATE tg_us..." />
-            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="select tg_us..tg_user..." />
-          </folding>
-        </state>
+        <state line="11" column="49" selection-start="329" selection-end="329" vertical-scroll-proportion="-1.608903" vertical-offset="1254" max-vertical-offset="1914" />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/t_g..tg_user">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="17" selection-start="2339" selection-end="2339" vertical-scroll-proportion="0.24483307" vertical-offset="1188" max-vertical-offset="2728">
-          <folding />
-        </state>
+        <state line="61" column="17" selection-start="2339" selection-end="2339" vertical-scroll-proportion="0.24483307" vertical-offset="1188" max-vertical-offset="2728" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/admin/siteCon.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="9" selection-start="289" selection-end="688" vertical-scroll-proportion="0.54531" vertical-offset="317" max-vertical-offset="1518">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1394201167328" expanded="true" signature="-1:-1" placeholder="select tg_ti..tg_html..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,29 +671,13 @@
     <entry file="file://$PROJECT_DIR$/manage/dealFuns/dealUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="27" selection-start="288" selection-end="288" vertical-scroll-proportion="0.41971382" vertical-offset="0" max-vertical-offset="1364">
-          <folding>
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_us..tg_user..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_le..tg_user..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="update tg_us..." />
-            <marker date="1394167989657" expanded="true" signature="-1:-1" placeholder="select tg_le..tg_user..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/admin/manaUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="13" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.89507157" vertical-offset="471" max-vertical-offset="1166">
-          <folding>
-            <marker date="1394202073080" expanded="true" signature="-1:-1" placeholder="select count..tg_user..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
           <folding />
         </state>
       </provider>
@@ -874,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/merchantGuy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="41" selection-start="2407" selection-end="2407" vertical-scroll-proportion="-22.0" vertical-offset="660" max-vertical-offset="2684">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/muser-login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="175" column="27" selection-start="6638" selection-end="6638" vertical-scroll-proportion="0.6785714" vertical-offset="3388" max-vertical-offset="4598">
@@ -888,17 +696,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/dealFuns/dealProd.php">
+    <entry file="file://$PROJECT_DIR$/manage/images/sidebar-menu-arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/images/icon-color.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/merchantGuy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="418">
+        <state line="116" column="7" selection-start="4067" selection-end="4067" vertical-scroll-proportion="0.7901431" vertical-offset="2055" max-vertical-offset="2684">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="70535" selection-start="70683" selection-end="70683" vertical-scroll-proportion="0.20401855" vertical-offset="0" max-vertical-offset="647">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="0.16666667" vertical-offset="0" max-vertical-offset="1012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/mysqlFun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="9" selection-start="3546" selection-end="3546" vertical-scroll-proportion="-3.9201994" vertical-offset="5664" max-vertical-offset="9174">
+          <folding>
+            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="select tg_us..tg_user..." />
+            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="SELECT tg_us..tg_user..." />
+            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="UPDATE tg_us..." />
+            <marker date="1394201167343" expanded="true" signature="-1:-1" placeholder="select tg_us..tg_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/2b1c1944/89c1c690-d797-47c9-805d-f43e62d9ca48/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/installFun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="27" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-4.419355" vertical-offset="149" max-vertical-offset="946">
+          <folding>
+            <element signature="n#creGoodTable#0;n#!!top" expanded="false" />
+            <element signature="n#creUserGoodTable#0;n#!!top" expanded="false" />
+            <marker date="1394262437404" expanded="true" signature="-1:-1" placeholder="create table..tg_good..." />
+            <marker date="1394262437404" expanded="true" signature="-1:-1" placeholder="create table..if..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/merchant/reaPro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="954" selection-end="954" vertical-scroll-proportion="0.19554849" vertical-offset="515" max-vertical-offset="2794">
+        <state line="177" column="46" selection-start="7283" selection-end="7283" vertical-scroll-proportion="-78.77419" vertical-offset="1452" max-vertical-offset="4620">
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -908,6 +775,23 @@
             <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="tag#script#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/dealFuns/dealProd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.8505155" vertical-offset="66" max-vertical-offset="792">
+          <folding>
+            <marker date="1394263151326" expanded="true" signature="223:298" placeholder="select tg_us..tg_user..." />
+            <marker date="1394263151326" expanded="true" signature="223:299" placeholder="select tg_us..tg_user..." />
           </folding>
         </state>
       </provider>
