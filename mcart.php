@@ -18,6 +18,8 @@ if ($id) {
         $carArr[$id]['count'] = $carArr[$id]['count'] + 1;
         $carArr[$id]['ins'] = $row['tg_pIns'];
         $carArr[$id]['price'] = $row['tg_pNewPrice'];
+
+        setcookie('cart',$carArr,time()+86000);
     } else {
         echo "<script>alert('未找到该商品');history.back();</script>";
     }
