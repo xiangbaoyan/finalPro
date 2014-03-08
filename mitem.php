@@ -1,3 +1,22 @@
+<?php
+
+define("IN_TG",true);
+$id = $_GET['id'];
+
+if (!$id) {
+    exit("未选中商品");
+}
+
+require $_SERVER['DOCUMENT_ROOT'] . "/functions/mysqlFun.php";
+_connect();
+_select_db();
+_set_names();
+$sql = "select tg_id,tg_pName,tg_pIns,tg_pOlodPrice,tg_pMainImg,tg_pNewPrice
+              from tg_good where tg_id={$id}";
+$row = _fetch_array($sql);
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +27,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-
     <link rel="stylesheet" type="text/css"
           href="/css/mitem.css">
     <style type="text/css"></style>
@@ -16,11 +34,10 @@
 <body id="body">
 <header>
     <div class="header">
-        <a id="tuanDetailBack" href="javascript:pageBack()" class="back"><span></span>返回</a>
+        <a id="tuanDetailBack" href="javascript:backHis()" class="back"><span></span>返回</a>
 
         <h2 class="fw-normal">
-            【渤海国际】丽都国际美容整形 </h2>
-
+            【<?php echo $row['tg_pName']?>】<?php echo $row['tg_pIns']?> </h2>
         <div class="btn-area-rt">
             <a href="/m.html" class="btn-sear-rt"></a>
         </div>
@@ -30,18 +47,17 @@
     <div class="view-img">
         <div id="spinner" class="spinner" style="left:50%;margin:-22px -15px;"></div>
         <div style="min-height:140px;max-height:220px;" class="photo txt-cent" id="div_img">
-            <img width="220" src="http://s1.dabinzhou.com/public/attachment/201403/05/09/531678eec1ad6_287x179.jpg"
-                 >
+            <img width="220px" height="120px" src="<?php echo $row['tg_pMainImg']?>">
         </div>
     </div>
     <div class="price bg-type">
         <p class="price-p1 posi-re">
-            <strong class="red"><span>￥38</span></strong>&nbsp;&nbsp;
-            <del class="ft14">￥1280</del>
+            <strong class="red"><span>￥<?php echo $row['tg_pNewPrice']?></span></strong>&nbsp;&nbsp;
+            <del class="ft14">￥<?php echo $row['tg_pOlodPrice']?></del>
         </p>
         <div style="margin-right: 60px;margin-top: -9px;margin-bottom: 7px;">
             <span id="startOrder">
-            <a style="text-align: center;display: block;width: 100%;" class="btn-type" >立即购买</a>
+            <a style="text-align: center;display: block;width: 100%;" class="btn-type">立即购买</a>
             </span>
         </div>
         <p></p>
@@ -54,7 +70,7 @@
     </div>
     <input type="hidden" value="7579740" id="counterTime">
 
-    <p class="p-txt txt3">仅售38元，享受价值1280元的尊宠贵宾卡一张。面部水上芭蕾3次+顶级…</p>
+    <p class="p-txt txt3">仅售<?php echo $row['tg_pNewPrice']?>元，享受价值<?php echo $row['tg_pOlodPrice']?>的尊宠贵宾卡一张。面部水上芭蕾3次+顶级…</p>
 
     <div class="pd10">
         <ul class="lst-type3">
@@ -81,14 +97,18 @@
         </div>
     </div>
 </footer>
-</body><script>function backHis(){
-    history.back();
-}function showOrHide(id) {
-    var tardiv = $("#"+id);
-    if(tardiv.css("display")=="none"){
-        tardiv.css("display","block");
-    }else{
-        tardiv.css("display","none");
+</body>
+<script>
+    function backHis() {
+        history.back();
     }
-}</script>
+    function showOrHide(id) {
+        var tardiv = $("#" + id);
+        if (tardiv.css("display") == "none") {
+            tardiv.css("display", "block");
+        } else {
+            tardiv.css("display", "none");
+        }
+    }
+</script>
 </html>

@@ -1,5 +1,5 @@
 <?php
-define('IN_TG',true);
+define('IN_TG', true);
 require $_SERVER['DOCUMENT_ROOT'] . "/functions/mysqlFun.php";
 
 $name = @$_POST['name'];
@@ -32,9 +32,9 @@ if ($name && $con) {
 
 //查询生成静态页面
 
-$sql =  "select tg_title,tg_slogan from tg_html where tg_id = 1";
+$sql = "select tg_title,tg_slogan from tg_html where tg_id = 1";
 $row = _fetch_array($sql);
-$title =  $row['tg_title'];
+$title = $row['tg_title'];
 $slogan = $row['tg_slogan'];
 ob_start();
 ?>
@@ -49,9 +49,9 @@ ob_start();
 
 <div class="new-jd-logo">
     <div style="font-size:24px; padding-top:10px; height:35px; color:#c91623;"><?php echo $title ?>
-        <font style="font-size:14px;"><?php echo $slogan?></font></div>
+        <font style="font-size:14px;"><?php echo $slogan ?></font></div>
     <div class="new-hlogo-btn">
-        <img src="/users/avatar.png"  id="userAva"
+        <img src="/users/avatar.png" id="userAva"
              style="width: 25px;display:none;position: absolute;top:10px;left: 3px" alt=""/>
         <a href="muser-login.php" class="new-m-myjd"><span><?php echo $title ?></span></a>
         <a href="mcart.php" id="html5_cart" class="new-m-cart"><span>购物车</span></a>
@@ -76,7 +76,8 @@ ob_start();
         <a href="mcate/id-0.php" class="new-tbl-cell"><span class="new-icon1"><span></span><br>商城分类</span></a><a
             href="mtuan/id-0.php" class="new-tbl-cell"><span class="new-icon2"><span></span><br>团购分类</span></a><a
             href="index.php" class="new-tbl-cell"><span class="new-icon3"><span></span><br>我的关注</span></a><a
-            href="muser-login.php" class="new-tbl-cell"><span class="new-icon4"><span></span><br><?php echo $title ?></span></a>
+            href="muser-login.php" class="new-tbl-cell"><span
+                class="new-icon4"><span></span><br><?php echo $title ?></span></a>
     </div>
 </div>
 
@@ -84,23 +85,22 @@ ob_start();
 <div class="box_top">精选团购</div>
 
 <?php
-    $sql = "select tg_pName,tg_pIns,tg_pOlodPrice,tg_pMainImg,tg_pNewPrice
+$sql = "select tg_id,tg_pName,tg_pIns,tg_pOlodPrice,tg_pMainImg,tg_pNewPrice
               from tg_good
           order by tg_id
               desc
              limit 5";
-    $result = _query($sql);
+$result = _query($sql);
 
-    while($row = _fetch_array_list($result)){
-        ?>
-
-        <div class="thumb">
-            <ul class="lst-type">
-                <li class="box lt-li">
-                    <a class="lt-a" href="#">
-                        <p class="thumb-img" style="width:150px;">
-                            <img width="144" height="100" alt="photo" src="<?php echo $row['tg_pMainImg'] ?>"><br>
-                        </p>
+while ($row = _fetch_array_list($result)) {
+    ?>
+    <div class="thumb">
+        <ul class="lst-type">
+            <li class="box lt-li">
+                <a class="lt-a" href="/mitem.php?id=<?php echo $row['tg_id'] ?>">
+                    <p class="thumb-img" style="width:150px;">
+                        <img width="144" height="100" alt="photo" src="<?php echo $row['tg_pMainImg'] ?>"><br>
+                    </p>
                             <span class="thumb-cont" style="display:block;padding:5px 8px 0 0px">
 							<span style="height:40px;font-size:14px;margin-top: -8px;">
 								【<?php echo $row['tg_pName'] ?>】
@@ -118,14 +118,14 @@ ob_start();
                                     <span></span><strong>0</strong>人已购买</p>
 								</span>
 
-                    </a>
-                </li>
-            </ul>
-        </div>
+                </a>
+            </li>
+        </ul>
+    </div>
 
 
-    <?php
-    }
+<?php
+}
 ?>
 
 
@@ -144,9 +144,9 @@ ob_start();
 <script src="/js/jquery.min.js"></script>
 <script src="/js/jquery.cookie.js"></script>
 <script>
-    if($.cookie("username")){
-        $("#userAva").css("display","block").siblings(".new-m-myjd").attr("href","");
-        $("#loginBtn").html("退出").attr("href","").click(function(){
+    if ($.cookie("username")) {
+        $("#userAva").css("display", "block").siblings(".new-m-myjd").attr("href", "");
+        $("#loginBtn").html("退出").attr("href", "").click(function () {
             $.removeCookie("username");
             $.removeCookie("uniqid");
             location.reload();
@@ -156,5 +156,5 @@ ob_start();
 </html>
 <?php
 $data = ob_get_clean();
-file_put_contents($_SERVER['DOCUMENT_ROOT'].'/m.html', $data);
+file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/m.html', $data);
 ?>

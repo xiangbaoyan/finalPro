@@ -20,6 +20,7 @@ create table tg_good (
     tg_pReaUser   varchar(20)   not null                          comment '//商品发布者',
     tg_pMainImg   varchar(50)                                     comment '//商品主要图片',
     tg_pReaTime   datetime      not null                          comment '//商品发布日期',
+    tg_beInTime   tinyint       unsigned                          comment '//商品上架天数'
     PRIMARY KEY (tg_id)
 
 )ENGINE=MyISAM DEFAULT CHARSET=utf8 auto_increment=50;";
