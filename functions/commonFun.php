@@ -88,18 +88,22 @@ function _setcookies($_username,$_uniqid,$_time) {
         case '0':  //浏览器进程
             setcookie('username',$_username);
             setcookie('uniqid',$_uniqid);
+            setcookie('cart',serialize([]),time()+86400);
             break;
         case '1':  //一天
             setcookie('username',$_username,time()+86400);
             setcookie('uniqid',$_uniqid,time()+86400);
+            setcookie('cart',serialize([]),time()+86400);
             break;
         case '2':  //一周
             setcookie('username',$_username,time()+604800);
             setcookie('uniqid',$_uniqid,time()+604800);
+            setcookie('cart',serialize([]),time()+86400);
             break;
         case '3':  //一月
             setcookie('username',$_username,time()+2592000);
             setcookie('uniqid',$_uniqid,time()+2592000);
+            setcookie('cart',serialize([]),time()+86400);
             break;
     }
 }

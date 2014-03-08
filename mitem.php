@@ -57,7 +57,8 @@ $row = _fetch_array($sql);
         </p>
         <div style="margin-right: 60px;margin-top: -9px;margin-bottom: 7px;">
             <span id="startOrder">
-            <a style="text-align: center;display: block;width: 100%;" class="btn-type">立即购买</a>
+            <a href="/mcart.php?id=<?php echo $row['tg_id'] ?>"
+             style="text-align: center;display: block;width: 100%;" class="btn-type">立即购买</a>
             </span>
         </div>
         <p></p>

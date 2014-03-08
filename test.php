@@ -1,1 +1,5 @@
-9d06eff490633c64650bdd716d0d4585.jpg
+<?php
+
+    echo serialize([]);
+
+?>
