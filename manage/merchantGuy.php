@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(!@$_SESSION['merchant']){
+    exit("请联系站长注册为商家再来使用此功能");
+}
+?>
 <html>
 <head>
     <title>主页</title>
@@ -55,13 +61,6 @@
                 <a class="ajaxify start" href="merchant/reaPro.php">
                     <i class="fa fa-home"></i>
                     <span class="title">发布产品</span>
-                    <span class="selected"></span>
-                </a>
-            </li>
-            <li class="">
-                <a class="ajaxify" href="">
-                    <i class="fa fa-users"></i>
-                    <span class="title">用户管理</span>
                     <span class="selected"></span>
                 </a>
             </li>

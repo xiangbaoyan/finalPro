@@ -1989,6 +1989,16 @@
       <column name="tg_slogan" sqlType="VARCHAR" length="40" precision="0" nullable="false" jdbcType="12" def="J8OlxaDCqsOlxaDigLrDqMK/4oC6w6XCj+KAk8OvwrzFksOl4oC6wqLDp8K74oCcw6XCpeKAucOowr/igLon" remarks="Ly/Dp8K94oCYw6fCq+KEosOmwqDigKHDqcKiy5w="/>
       <primary-key name="PRIMARY" columns="tg_id"/>
     </table>
+    <table name="tg_order" schema="" catalog="t_g" type="TABLE">
+      <column name="tg_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="Ly9pZA==" autoIncrement="true"/>
+      <column name="tg_buyerName" sqlType="VARCHAR" length="20" precision="0" nullable="true" jdbcType="12"/>
+      <column name="tg_buyTime" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93" remarks="Ly8/Pz8/"/>
+      <column name="tg_cart" sqlType="VARCHAR" length="500" precision="0" nullable="false" jdbcType="12" remarks="Ly8/Pz8/Pz8/Pw=="/>
+      <column name="tg_gId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="Ly8/Pz8/SWQ="/>
+      <column name="tg_gPrice" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" remarks="Ly8/Pz8/Pz8/"/>
+      <column name="tg_count" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" def="MQ==" remarks="Ly8/Pz8/"/>
+      <primary-key name="PRIMARY" columns="tg_id"/>
+    </table>
     <table name="tg_test" schema="" catalog="t_g" type="TABLE">
       <column name="tg_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="tg_username" sqlType="VARCHAR" length="20" precision="0" nullable="true" jdbcType="12" def="J3hpYW9ob3Un"/>
@@ -2009,6 +2019,7 @@
       <column name="tg_last_time" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/mnIDlkI7nmbvlvZXnmoTml7bpl7Q="/>
       <column name="tg_login_count" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" def="MA==" remarks="Ly/nmbvlvZXmrKHmlbA="/>
       <column name="tg_last_ip" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/mnIDlkI7nmbvlvZXnmoRJUA=="/>
+      <column name="tg_collect" sqlType="VARCHAR" length="500" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="tg_id"/>
     </table>
     <table name="tg_usergood" schema="" catalog="t_g" type="TABLE">

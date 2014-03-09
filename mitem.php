@@ -80,7 +80,7 @@ if(!@$_COOKIE['cart']){
     <div class="pd10">
         <ul class="lst-type3">
             <li class="lt-li">
-                <a class="lt-a" href="#">本单详情 <span class="li-arrow"></span></a>
+                <a class="lt-a" href="javascript:void(0)" onclick="collectThis(<?php echo $id ?>)">添加收藏 <span class="li-arrow"></span></a>
             </li>
             <li class="lt-li">
                 <a class="lt-a" href="#"> 商家简介<span class="li-arrow"></span></a>
@@ -103,7 +103,20 @@ if(!@$_COOKIE['cart']){
     </div>
 </footer>
 </body>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.cookie.js"></script>
 <script>
+    function collectThis(id){
+        $.post("dealOrder.php",{action:'collectThis',id:id},function(data){
+            if(data == 'ok'){
+                alert("收藏成功");
+            }else{
+                alert("收藏失败");
+
+            }
+        });
+    }
+
     function backHis() {
         history.back();
     }

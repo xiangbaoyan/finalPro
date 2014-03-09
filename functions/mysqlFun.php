@@ -367,7 +367,9 @@ function loginUser($arr){
             $_SESSION['manage'] = $_rows['tg_username'];
             _close();
             backPage("登陆成功，转到用户管理","/manage/admin.php");
-            }
+         }elseif($_rows['tg_level'] == 1){
+            $_SESSION['merchant'] = $_rows['tg_username'];
+        }
         echo "<script>alert('用户登录成功');history.go(-2);</script>";
     }
     else {

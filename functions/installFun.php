@@ -70,6 +70,14 @@ function creOrderTable(){
     _query($sql);
 }
 
+
+//给tg_user 添加字段
+function addColumn(){
+    $sql = "alter table tg_user add tg_collect varchar(500)";
+    _query($sql);
+}
+
+
 //创建用户表,首先写明字段，
 $arr = ['username', 'password', 'uniqid', 'active', 'sex', 'level', 'reg_time',
     'last_time', 'login_ip', 'login_count'];

@@ -1,6 +1,7 @@
 <?php
 define("IN_TG", true);
 $id = @$_GET['id'];
+
 $carArr = unserialize(@$_COOKIE['cart']);;
 
 require $_SERVER['DOCUMENT_ROOT'] . "/functions/mysqlFun.php";
@@ -135,7 +136,7 @@ if ($id) {
                 <div class="nogoodstxt"><p class="empty">您的购物车还是空的。</p>
 
                     <p class="color_blue">您还没有添加任何商品。马上去 [ <a href="m.html">挑选商品</a> ]，或者去 [ <a
-                            href="#">我的收藏夹</a> ] 看看。
+                            href="mycollect.php">我的收藏夹</a> ] 看看。
                         <br></p><br><br><br><br></div>
                 <div class="blank"></div>
             </div>
@@ -185,7 +186,7 @@ if ($id) {
 //    清空购物车
     function clear_cart(){
         $.removeCookie("cart");
-        location.reload();
+        location.href = "mcart.php";
     }
 
     /*
