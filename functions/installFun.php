@@ -3,7 +3,7 @@ define("IN_TG", true);
 require $_SERVER['DOCUMENT_ROOT'] . "/functions/commonFun.php";
 require BASE_DIR . "/functions/mysqlFun.php";
 
-/*
+/**
  * 建立商品表
  */
 function creGoodTable()
@@ -27,7 +27,7 @@ create table tg_good (
     _query($sql);
 }
 
-/*
+/**
  * 创建商品和用户关系表
  */
 function creUserGoodTable()
@@ -46,6 +46,27 @@ create table if not exists tg_userGood(
 
 )ENGINE=MyISAM default charset = utf8 ;";
 
+    _query($sql);
+}
+
+
+
+/**
+ * 创建订单表
+ */
+function creOrderTable(){
+    $sql = "create table if not exists tg_order(
+
+  tg_id         int           unsigned not null auto_increment  comment '//id',
+  tg_buyerName  varchar(20 )           not null                 comment '//购买者名字',
+  tg_buyTime    datetime                                        comment '//购买时间',
+  tg_cart       varchar(500)           not null                 comment '//当时的购物车内容',
+  tg_gId        int           unsigned not null                 comment '//购买物品Id',
+  tg_gPrice     mediumint(8)  unsigned not null                 comment '//当时购买的单价',
+  tg_count      mediumint(5)  unsigned not null default 1       comment '//购买数量',
+  primary key (tg_id)
+)engine=MyISAM default charset=utf8 ;
+    ";
     _query($sql);
 }
 

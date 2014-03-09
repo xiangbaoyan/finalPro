@@ -368,7 +368,7 @@ function loginUser($arr){
             _close();
             backPage("登陆成功，转到用户管理","/manage/admin.php");
             }
-        backPage("登陆成功");
+        echo "<script>alert('用户登录成功');history.go(-2);</script>";
     }
     else {
     _close();

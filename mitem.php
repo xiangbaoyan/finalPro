@@ -14,6 +14,10 @@ _set_names();
 $sql = "select tg_id,tg_pName,tg_pIns,tg_pOlodPrice,tg_pMainImg,tg_pNewPrice
               from tg_good where tg_id={$id}";
 $row = _fetch_array($sql);
+
+if(!@$_COOKIE['cart']){
+    setcookie('cart',serialize([]),time()+86000);
+}
 ?>
 
 
