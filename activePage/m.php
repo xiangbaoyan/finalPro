@@ -74,7 +74,7 @@ ob_start();
 <div class="new-tab-type5">
     <div class="new-tbl-type">
         <a href="mcate/id-0.php" class="new-tbl-cell"><span class="new-icon1"><span></span><br>所有商品</span></a><a
-            href="mtuan/id-0.php" class="new-tbl-cell"><span class="new-icon2"><span></span><br>团购分类</span></a><a
+            href="mitems.php" class="new-tbl-cell"><span class="new-icon2"><span></span><br>商品分类</span></a><a
             href="mycollect.php" class="new-tbl-cell"><span class="new-icon3"><span></span><br>我的收藏</span></a><a
             href="manage/merchantGuy.php" class="new-tbl-cell"><span
                 class="new-icon4"><span></span><br>个人中心</span></a>

@@ -1981,6 +1981,7 @@
       <column name="tg_pReaUser" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly8/Pz8/Pw=="/>
       <column name="tg_pMainImg" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12" remarks="Ly8/Pz8/Pz8="/>
       <column name="tg_pReaTime" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly8/Pz8/Pz8="/>
+      <column name="tg_cate" sqlType="VARCHAR" length="20" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="tg_id"/>
     </table>
     <table name="tg_html" schema="" catalog="t_g" type="TABLE">
