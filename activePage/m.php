@@ -73,7 +73,7 @@ ob_start();
 
 <div class="new-tab-type5">
     <div class="new-tbl-type">
-        <a href="mcate/id-0.php" class="new-tbl-cell"><span class="new-icon1"><span></span><br>所有商品</span></a><a
+        <a href="manage/admin.php" class="new-tbl-cell"><span class="new-icon1"><span></span><br>admin</span></a><a
             href="mitems.php" class="new-tbl-cell"><span class="new-icon2"><span></span><br>商品分类</span></a><a
             href="mycollect.php" class="new-tbl-cell"><span class="new-icon3"><span></span><br>我的收藏</span></a><a
             href="manage/merchantGuy.php" class="new-tbl-cell"><span
@@ -149,6 +149,9 @@ while ($row = _fetch_array_list($result)) {
         $("#loginBtn").html("退出").attr("href", "").click(function () {
             $.removeCookie("username");
             $.removeCookie("uniqid");
+            $.ajax("clearSession.php",function(){
+                alert("成功退出");
+            });
             location.reload();
         })
     }

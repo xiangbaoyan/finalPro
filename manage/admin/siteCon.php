@@ -17,7 +17,7 @@ _close();
     <ul class="page-breadcrumb breadcrumb">
         <li>
             <i class="fa fa-home"></i>
-            <a href="../admin.php">
+            <a href="admin.php">
                 后台主页
             </a>
             <i class="fa fa-angle-right"></i>

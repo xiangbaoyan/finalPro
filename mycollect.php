@@ -1,5 +1,7 @@
 <?php
-
+if(!@$_COOKIE['username']){
+    exit("请先登录！");
+}
 define("IN_TG",true);
 require $_SERVER['DOCUMENT_ROOT'] . "/functions/mysqlFun.php";
 _connect();
