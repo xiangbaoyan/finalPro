@@ -60,12 +60,12 @@ ob_start();
 
 
 <div class="new-header">
-    <form id="ssform" action="#" method="post">
+    <form id="ssform" action="msearch.php" method="post">
         <div class="new-srch-box" style="margin-right: 10px;">
             <input name="keyWord" id="keyWord" type="text" size="16" maxlength="20" required autofocus
                    autocomplete="off" class="new-srch-input" placeholder="请输入#" style="color:#999999;"
                    value="">
-            <a href="#" class="new-s-srch" onclick='#'><span></span></a>
+            <a id="ssformSubmit" class="new-s-srch"><span></span></a>
         </div>
     </form>
 </div>
@@ -136,8 +136,8 @@ while ($row = _fetch_array_list($result)) {
             href="muser-register.php" style="padding-left: 10px;">注册</a>
         <span class="new-back-top"><a href="#top">回到顶部</a></span>
     </div>
-    <div class="new-f-section"><a href="m.php" class="on">触屏版</a><a
-            id="toPcHome">电脑版</a></div>
+    <div class="new-f-section"><a href="m.html" class="on">触屏版</a><a
+            id="toPcHome" style="cursor: pointer;">安全退出</a></div>
     <div class="new-f-section2">Copyright &copy; 2012-2013 向宝彦 xiangbaoyan 版权所有</div>
 </div>
 </body>
@@ -149,12 +149,34 @@ while ($row = _fetch_array_list($result)) {
         $("#loginBtn").html("退出").attr("href", "").click(function () {
             $.removeCookie("username");
             $.removeCookie("uniqid");
-            $.ajax("clearSession.php",function(){
-                alert("成功退出");
+            $.post("clearSession.php",function(data){
+                if(data == 'ok'){
+                    alert("安全退出");
+                }else{
+                    alert("需要继续退出");
+                }
             });
             location.reload();
         })
     }
+
+    $("#toPcHome").click(function(){
+
+        $.post("clearSession.php",function(data){
+            if(data == 'ok'){
+                alert("安全退出");
+            }else{
+                alert("需要继续退出");
+            }
+        });
+    });
+</script>
+
+<script>
+    $("#ssformSubmit").click(function(){
+
+        $("#ssform").submit();
+    });
 </script>
 </html>
 <?php
