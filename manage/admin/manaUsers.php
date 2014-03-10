@@ -30,7 +30,6 @@
         $pageSum = $row['pageSum'];
         $pageSum = ceil($pageSum/5);
         //存放在cookie
-        setcookie("pageSum",$pageSum);
         //现在确定一次显示10页，每页5条
         foreach (range(1, $pageSum) as $value) {
             ?>
@@ -46,3 +45,4 @@
 <div id="showUsers">
 </div>
 <script src="js/myPagify.js"></script>
+

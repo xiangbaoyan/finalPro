@@ -1,3 +1,19 @@
+<?php
+define("IN_TG", true);
+require $_SERVER['DOCUMENT_ROOT'] . "/functions/mysqlFun.php";
+_connect();
+_select_db();
+_set_names();
+//确定总数是多少
+$sql = "select count(tg_id) pageSum from tg_user";
+$row = _fetch_array($sql);
+$pageSum = $row['pageSum'];
+$pageSum = ceil($pageSum/5);
+//存放在cookie
+setcookie("pageSum",$pageSum);
+?>
+
+
 <html>
 <head>
     <title>主页</title>
