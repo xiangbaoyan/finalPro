@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7e41ee-d383-4b76-8896-150b868de03d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/msearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clearSession.php" afterPath="$PROJECT_DIR$/clearSession.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m.html" afterPath="$PROJECT_DIR$/m.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activePage/m.php" afterPath="$PROJECT_DIR$/activePage/m.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalPro.iws" />
@@ -537,7 +532,11 @@
       <created>1394438742119</created>
       <updated>1394438742119</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="12121">
+      <created>1394445777488</created>
+      <updated>1394445777488</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -600,7 +599,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="2" />
     <MESSAGE value="3" />
     <MESSAGE value="4" />
     <MESSAGE value="5" />
@@ -625,7 +623,8 @@
     <MESSAGE value="251" />
     <MESSAGE value="121" />
     <MESSAGE value="122" />
-    <option name="LAST_COMMIT_MESSAGE" value="122" />
+    <MESSAGE value="12121" />
+    <option name="LAST_COMMIT_MESSAGE" value="12121" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
