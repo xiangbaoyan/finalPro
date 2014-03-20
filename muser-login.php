@@ -39,6 +39,7 @@ if ($errData == "" && !empty($clean)) {
 <html>
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/muser-login.css"/>
     <script src="/js/jquery.min.js"></script>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="MySQL - @localhost" uuid="89c1c690-d797-47c9-805d-f43e62d9ca48">
+  <data-source source="LOCAL" name="MySQL - @localhost" uuid="959ec6c4-629f-444b-89b3-49adc8adae82">
     <database-info product="MySQL" version="5.6.12-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -11,6 +11,7 @@
     <schema name="" catalog="performance_schema"/>
     <schema name="" catalog="t_g"/>
     <schema name="" catalog="test"/>
+    <schema name="" catalog="ts_sys1"/>
     <table name="CHARACTER_SETS" schema="" catalog="information_schema" type="SYSTEM TABLE">
       <column name="CHARACTER_SET_NAME" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
       <column name="DEFAULT_COLLATE_NAME" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
@@ -1974,64 +1975,70 @@
     </table>
     <table name="tg_good" schema="" catalog="t_g" type="TABLE">
       <column name="tg_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="Ly9pZA==" autoIncrement="true"/>
-      <column name="tg_pName" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly8/Pz8/"/>
-      <column name="tg_pIns" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12" remarks="Ly8/Pz8/"/>
-      <column name="tg_pOlodPrice" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="true" jdbcType="4" remarks="Ly8/Pz8/"/>
-      <column name="tg_pNewPrice" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="true" jdbcType="4" remarks="Ly8/Pz8/"/>
-      <column name="tg_pReaUser" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly8/Pz8/Pw=="/>
-      <column name="tg_pMainImg" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12" remarks="Ly8/Pz8/Pz8="/>
-      <column name="tg_pReaTime" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly8/Pz8/Pz8="/>
-      <column name="tg_cate" sqlType="VARCHAR" length="20" precision="0" nullable="true" jdbcType="12"/>
+      <column name="tg_pName" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/llYblk4HlkI3np7A="/>
+      <column name="tg_pIns" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12" remarks="Ly/llYblk4HnroDku4s="/>
+      <column name="tg_pOlodPrice" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="true" jdbcType="4" remarks="Ly/llYblk4Hljp/ku7c="/>
+      <column name="tg_pNewPrice" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="true" jdbcType="4" remarks="Ly/llYblk4HnjrDku7c="/>
+      <column name="tg_pReaUser" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/llYblk4Hlj5HluIPogIU="/>
+      <column name="tg_pMainImg" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12" remarks="Ly/llYblk4HkuLvopoHlm77niYc="/>
+      <column name="tg_pReaTime" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/llYblk4Hlj5HluIPml6XmnJ8="/>
+      <column name="tg_beInTime" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="true" jdbcType="-6" remarks="Ly/llYblk4HkuIrmnrblpKnmlbA="/>
       <primary-key name="PRIMARY" columns="tg_id"/>
     </table>
     <table name="tg_html" schema="" catalog="t_g" type="TABLE">
-      <column name="tg_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" remarks="Ly/Dp+KAncKow6bLhsK3w6jigKHCqsOlxaDCqMOnwrzigJPDpcKPwrc="/>
-      <column name="tg_title" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/Dp8K94oCYw6fCq+KEosOmwqDigKHDqcKiy5w="/>
-      <column name="tg_slogan" sqlType="VARCHAR" length="40" precision="0" nullable="false" jdbcType="12" def="J8OlxaDCqsOlxaDigLrDqMK/4oC6w6XCj+KAk8OvwrzFksOl4oC6wqLDp8K74oCcw6XCpeKAucOowr/igLon" remarks="Ly/Dp8K94oCYw6fCq+KEosOmwqDigKHDqcKiy5w="/>
-      <primary-key name="PRIMARY" columns="tg_id"/>
-    </table>
-    <table name="tg_order" schema="" catalog="t_g" type="TABLE">
-      <column name="tg_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="Ly9pZA==" autoIncrement="true"/>
-      <column name="tg_buyerName" sqlType="VARCHAR" length="20" precision="0" nullable="true" jdbcType="12"/>
-      <column name="tg_buyTime" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93" remarks="Ly8/Pz8/"/>
-      <column name="tg_cart" sqlType="VARCHAR" length="500" precision="0" nullable="false" jdbcType="12" remarks="Ly8/Pz8/Pz8/Pw=="/>
-      <column name="tg_gId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="Ly8/Pz8/SWQ="/>
-      <column name="tg_gPrice" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" remarks="Ly8/Pz8/Pz8/"/>
-      <column name="tg_count" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" def="MQ==" remarks="Ly8/Pz8/"/>
-      <primary-key name="PRIMARY" columns="tg_id"/>
-    </table>
-    <table name="tg_test" schema="" catalog="t_g" type="TABLE">
-      <column name="tg_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="tg_username" sqlType="VARCHAR" length="20" precision="0" nullable="true" jdbcType="12" def="J3hpYW9ob3Un"/>
-      <column name="tg_ex1" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
-      <column name="tg_ex2" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12"/>
+      <column name="tg_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" remarks="Ly/nlKjmiLfoh6rliqjnvJblj7c="/>
+      <column name="tg_title" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/nvZHnq5nmoIfpopg="/>
+      <column name="tg_slogan" sqlType="VARCHAR" length="40" precision="0" nullable="false" jdbcType="12" def="J+WKquWKm+i/m+WPlu+8jOWboue7k+Wli+i/myc=" remarks="Ly/nvZHnq5nmoIfpopg="/>
       <primary-key name="PRIMARY" columns="tg_id"/>
     </table>
     <table name="tg_user" schema="" catalog="t_g" type="TABLE">
       <column name="tg_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" remarks="Ly/nlKjmiLfoh6rliqjnvJblj7c=" autoIncrement="true"/>
-      <column name="tg_userDir" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12" remarks="Ly/nlKjmiLfmlofku7blrZjmlL4="/>
       <column name="tg_username" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/nlKjmiLflkI0="/>
       <column name="tg_password" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/lr4bnoIE="/>
       <column name="tg_uniqid" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/pqozor4Houqvku73nmoTllK/kuIDmoIfor4bnrKY="/>
-      <column name="tg_active" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" def="JzAn" remarks="Ly/mv4DmtLvnmbvlvZXnlKjmiLc="/>
+      <column name="tg_active" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/mv4DmtLvnmbvlvZXnlKjmiLc="/>
       <column name="tg_sex" sqlType="CHAR" length="1" precision="0" nullable="false" jdbcType="1" remarks="Ly/mgKfliKs="/>
       <column name="tg_level" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" def="MA==" remarks="Ly/kvJrlkZjnrYnnuqc="/>
       <column name="tg_reg_time" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/ms6jlhozml7bpl7Q="/>
       <column name="tg_last_time" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/mnIDlkI7nmbvlvZXnmoTml7bpl7Q="/>
       <column name="tg_login_count" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" def="MA==" remarks="Ly/nmbvlvZXmrKHmlbA="/>
       <column name="tg_last_ip" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/mnIDlkI7nmbvlvZXnmoRJUA=="/>
-      <column name="tg_collect" sqlType="VARCHAR" length="500" precision="0" nullable="true" jdbcType="12"/>
+      <column name="tg_userDir" sqlType="VARCHAR" length="200" precision="0" nullable="true" jdbcType="12" remarks="Ly/nlKjmiLfnm67lvZU="/>
       <primary-key name="PRIMARY" columns="tg_id"/>
     </table>
     <table name="tg_usergood" schema="" catalog="t_g" type="TABLE">
-      <column name="tg_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="Ly8/P2lk" autoIncrement="true"/>
-      <column name="tg_userName" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly8/Pz8="/>
-      <column name="tg_goodId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="Ly8/P2lk"/>
-      <column name="tg_buyCount" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="true" jdbcType="4" remarks="Ly8/Pz8/"/>
-      <column name="tg_comment" sqlType="VARCHAR" length="2000" precision="0" nullable="true" jdbcType="12" remarks="Ly8/Pz8/"/>
-      <column name="tg_comment1" sqlType="VARCHAR" length="2000" precision="0" nullable="true" jdbcType="12" remarks="Ly8/Pz8/"/>
-      <column name="tg_userMark" sqlType="CHAR" length="1" precision="0" nullable="true" jdbcType="1" remarks="Ly8/Pz8/"/>
+      <column name="tg_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="Ly/lhbPns7tpZA==" autoIncrement="true"/>
+      <column name="tg_userName" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/nlKjmiLflkI0="/>
+      <column name="tg_goodId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="Ly/llYblk4FpZA=="/>
+      <column name="tg_buyCount" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="true" jdbcType="4" remarks="Ly/otK3kubDmlbDph48="/>
+      <column name="tg_comment" sqlType="VARCHAR" length="2000" precision="0" nullable="true" jdbcType="12" remarks="Ly/nlKjmiLfor4Tku7c="/>
+      <column name="tg_comment1" sqlType="VARCHAR" length="2000" precision="0" nullable="true" jdbcType="12" remarks="Ly/nlKjmiLfov73or4Q="/>
+      <column name="tg_userMark" sqlType="CHAR" length="1" precision="0" nullable="true" jdbcType="1" remarks="Ly/nlKjmiLfor4TliIY="/>
       <primary-key name="PRIMARY" columns="tg_id"/>
+    </table>
+    <table name="ts_user" schema="" catalog="ts_sys1" type="TABLE">
+      <column name="id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" remarks="Ly/nlKjmiLfoh6rliqjnvJblj7c=" autoIncrement="true"/>
+      <column name="uniqid" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/pqozor4Houqvku73nmoTllK/kuIDmoIfor4bnrKY="/>
+      <column name="active" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/mv4DmtLvnmbvlvZXnlKjmiLc="/>
+      <column name="username" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/nlKjmiLflkI0="/>
+      <column name="password" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/lr4bnoIE="/>
+      <column name="question" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/lr4bnoIHmj5DnpLo="/>
+      <column name="answer" sqlType="CHAR" length="40" precision="0" nullable="false" jdbcType="1" remarks="Ly/lr4bnoIHlm57nrZQ="/>
+      <column name="email" sqlType="VARCHAR" length="40" precision="0" nullable="true" jdbcType="12" remarks="Ly/pgq7ku7Y="/>
+      <column name="qq" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12" remarks="Ly9RUQ=="/>
+      <column name="url" sqlType="VARCHAR" length="40" precision="0" nullable="true" jdbcType="12" remarks="Ly/nvZHlnYA="/>
+      <column name="sex" sqlType="CHAR" length="1" precision="0" nullable="false" jdbcType="1" remarks="Ly/mgKfliKs="/>
+      <column name="face" sqlType="CHAR" length="12" precision="0" nullable="false" jdbcType="1" remarks="Ly/lpLTlg48="/>
+      <column name="switch" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" def="MA==" remarks="Ly/kuKrmgKfnrb7lkI3lvIDlhbM="/>
+      <column name="autograph" sqlType="VARCHAR" length="200" precision="0" nullable="true" jdbcType="12" remarks="Ly/nrb7lkI3lhoXlrrk="/>
+      <column name="level" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" def="MA==" remarks="Ly/kvJrlkZjnrYnnuqc="/>
+      <column name="post_time" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" def="JzAn" remarks="Ly/lj5HluJbnmoTml7bpl7TmiLM="/>
+      <column name="article_time" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" def="JzAn" remarks="Ly/lm57luJbnmoTml7bpl7TmiLM="/>
+      <column name="reg_time" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/ms6jlhozml7bpl7Q="/>
+      <column name="last_time" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93" remarks="Ly/mnIDlkI7nmbvlvZXnmoTml7bpl7Q="/>
+      <column name="last_ip" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" remarks="Ly/mnIDlkI7nmbvlvZXnmoRJUA=="/>
+      <column name="login_count" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" def="MA==" remarks="Ly/nmbvlvZXmrKHmlbA="/>
+      <primary-key name="PRIMARY" columns="id"/>
     </table>
   </data-source>
 </component>

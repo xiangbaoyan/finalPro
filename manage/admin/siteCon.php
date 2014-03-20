@@ -1,7 +1,4 @@
 <?php
-if (defined("IN_ADMIN")) {
-    exit("网站访问被拒绝");
-}
 define("IN_TG", true);
 require $_SERVER['DOCUMENT_ROOT'] . "/functions/mysqlFun.php";
 _connect();

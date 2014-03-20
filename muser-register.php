@@ -41,7 +41,8 @@ if ($errData == "" && !empty($clean)) {
 <html>
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>注册页面</title>
     <link rel="stylesheet" type="text/css" href="css/muser-register.css"/>
     <script src="/js/jquery.min.js"></script>
 </head>
